@@ -61,6 +61,6 @@ Hoewel wij met elkaar goed kunnen afspreken over wie wat doet en wat het (algeme
 * **Risico 5:** Om een webapplicatie te maken is er vaak veel programmeerwerk nodig en kunnen daarbij fouten oplopen die ervoor zorgen dat (cruciale) functies niet werken, waardoor het eindproject zal falen. Om ervoor te zorgen dat alles werkt, kunnen developers na de making van een (belangrijk) element het testen en ook laten testen door vrijwilligers. In beide gevallen wordt er helder gemaakt wat er goed en verkeerd gaat.
  
 ## 5. Consequenties 
-* Wat gebeurt er als iemand afspraken structureel niet nakomt? 
-  * *[Bijv: 1e keer = feedback in stand-up. 2e keer = waarschuwing. 3e
-keer = Docent inlichten.]*
+1e keer: We sturen een bericht die uitlegt wat er fout gaat en we praten over wat er fout gaat in de standup.
+2e keer: We geven hun een waarschuwing in de les dat ze niet zo door moeten gaan.
+3e keer: We gaan naar de leraar en vertellen hun wat er aan de hand is en at er aan gedaan moet worden.
