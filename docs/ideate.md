@@ -1,8 +1,8 @@
 ## HMW-vragen
 
 ## brainstorm
-ideen rond slingeren
+ideeën rond slingeren.
 ## conceptkeuze
 
 ## User Flow
-hoe zijn de paginas verbonden
+![alt text](../inspiratie/hoofdpagina/images/site_map.png)
