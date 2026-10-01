@@ -1,6 +1,7 @@
 ## POV
-
-## MoSCoW eisen
+*[Doelgroep] heeft een manier nodig om [behoefte] omdat [inzicht uit
+empathize fase].*
+## MoSCoW programma van eisen
 Must:
 * welkom pagina
 * overview pagina
@@ -33,5 +34,3 @@ Wont:
 
 klant-tip: 
 wat vind u dat wij moeten veranderen in de lijst?
-## Programma van Eisen
-wat moeten wij in de site zetten?

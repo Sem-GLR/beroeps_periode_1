@@ -3,8 +3,7 @@
 # Fase 2: Define (Kaders & Probleemstelling)
  
 ## 1. De Probleemstelling (Point of View)
-*[Doelgroep] heeft een manier nodig om [behoefte] omdat [inzicht uit
-empathize fase].*
+
  
 ## 2. Programma van Eisen (MoSCoW)
 **Must Haves:**
