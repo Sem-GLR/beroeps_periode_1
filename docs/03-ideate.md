@@ -8,5 +8,5 @@
 uit de Define fase?*
 ## conceptkeuze
 
-## User Flow
-![alt text](../inspiratie/hoofdpagina/images/site_map.png)
+## Site map
+![alt text](./assets/site_map.png)

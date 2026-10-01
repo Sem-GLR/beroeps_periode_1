@@ -3,34 +3,34 @@
 empathize fase].*
 ## MoSCoW programma van eisen
 Must:
-* welkom pagina
-* overview pagina
-* account maken/inloggen
-* recepten sorteren
-* recept pagina/detail pagina
-* invoer pagina om recepten te uploaden
-* database
-* beheer pagina
+* Welkom pagina
+* Overview pagina
+* Account maken/inloggen
+* Recepten sorteren
+* Recept pagina/detail pagina
+* Invoer pagina om recepten te uploaden
+* Database
+* Beheer pagina
 
 Should:
-* op meerdere kenmerken sorteren
-* alternatieve ingerienten
-* verschillende manieren om recept te volgen
-* detail pagina voor accounts
-* links naar andere platforms bijv, instagram
-* voorkeuren intellen in account
+* Op meerdere kenmerken sorteren
+* Alternatieve ingerienten
+* Verschillende manieren om recept te volgen
+* Detail pagina voor accounts
+* Links naar andere platforms bijv, instagram
+* Voorkeuren intellen in account
 
 Could: 
-* reviews op recepten
-* rating systeem
-* dubbele recepten blokeren of samen voegen
-* aantekeningen toevoegen bij recept
-* dark mode
+* Reviews op recepten
+* Rating systeem
+* Dubbele recepten blokkeren of samen voegen
+* Aantekeningen toevoegen bij recept
+* Dark mode
 
 Wont:
-* meerdere talen
-* direct berichten sturen naar account
-* for you page voor recepten
+* Meerdere talen
+* Direct berichten sturen naar account
+* For you page voor recepten
 
 klant-tip: 
-wat vind u dat wij moeten veranderen in de lijst?
+Wat vind u dat wij moeten veranderen in de lijst?
