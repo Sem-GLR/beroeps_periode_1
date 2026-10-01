@@ -1,9 +1,8 @@
-# Fase 1: Empathize
+## onderzoek
 In dit onderzoek wordt er vastgesteld voor welk doelgroep ons product is bedoeld, zowel wat er rekenening mee moet worden gehouden.
 
 Dit document bestaat uit 4 onderdelen, waarbij 3 samengesteld zijn binnen het onderwerp 'doelgroeponderzoek' en het laatste te vinden is binnen het onderwerp 'bronnen'. De eerste 3 zaken zijn gericht naar het vaststellen van het gebruiker door het noemen van zijn pijnpunten, behoftes en wat zij handig zouden vinden in het app beschreven door de klant. In het laatste thema staan alle bronnen gebruikt voor deze onderzoek. Onderaan, binnen het thema doelgroeponderzoek, vindt u de eerste drie gedeeltes.
- 
-## 1. Doelgroeponderzoek
+
 <u>**Wie is onze gebruiker?**</u>
 
 Zoals er duidelijk werd gemaakt van de klant, is deze project bestemd voor generatie Z. Daarmee (volgens de Pew Research Center) wordt alle mensen die tussen 1997 en 2012 waren geboren bedoeld.
@@ -37,3 +36,9 @@ Bovendien werd er aan een aantal personen betreffend de doelgroep gevraagd welke
 * https://www.gwi.com/blog/gen-z-spending-habits
 https://www.gwi.com/blog/generation-z-characteristics
 * Eigen onderzoek (Thomas Rijsdijk, Rick Coomans, Musab Sever)
+
+## personas
+![alt text](../inspiratie/hoofdpagina/images/adam_persona.png)
+![alt text](../inspiratie/hoofdpagina/images/angela_persona.png)
+![alt text](../inspiratie/hoofdpagina/images/jorge_persona.png)
+## empathy map
