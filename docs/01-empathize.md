@@ -37,8 +37,9 @@ Bovendien werd er aan een aantal personen betreffend de doelgroep gevraagd welke
 https://www.gwi.com/blog/generation-z-characteristics
 * Eigen onderzoek (Thomas Rijsdijk, Rick Coomans, Musab Sever)
 
-## personas
-![alt text](../inspiratie/hoofdpagina/images/adam_persona.png)
-![alt text](../inspiratie/hoofdpagina/images/angela_persona.png)
-![alt text](../inspiratie/hoofdpagina/images/jorge_persona.png)
+## personas van klanten
+![alt text](./assets/adam_persona.png)
+![alt text](./assets/angela_persona.png)
+![alt text](./assets/jorge_persona.png)
 ## empathy map
+![alt text](./assets/empathy_map2.png)
