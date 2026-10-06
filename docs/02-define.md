@@ -1,36 +1,37 @@
-## POV
-*[Doelgroep] heeft een manier nodig om [behoefte] omdat [inzicht uit
-empathize fase].*
-## MoSCoW programma van eisen
-Must:
+## Het definiëren
+Wij zijn tot de conclusie gekomen dat gen Z'ers het beste een simpele, samenhangende en toch professionele webapp kunnen gebruiken om de ontkoking te verminderen. Dit trekt hen niet alleen in, maar het houdt hen gezond en het is ook goed voor hen portemonnee.
+
+Via een MoSCoW-methodetabel hebben wij goed kunnen vaststellen wat er wel en niet bij zo een webapplicatie past. Deze tabel kunt u hier onderaan zien:
+
+## MoSCoW-tabel
+### ***Must:***
 * Welkom pagina
 * Overview pagina
-* Account maken/inloggen
-* Recepten sorteren
 * Recept pagina/detail pagina
+* Account maken/inloggen
 * Invoer pagina om recepten te uploaden
+* Recepten sorteren
 * Database
 * Beheer pagina
 
-Should:
+### ***Should:***
 * Op meerdere kenmerken sorteren
 * Alternatieve ingerienten
+* Laten zien welke allergiën bij het recept voorkomen
 * Verschillende manieren om recept te volgen
-* Detail pagina voor accounts
-* Links naar andere platforms bijv, instagram
-* Voorkeuren intellen in account
+* Poppetjes/personages bij stijl
+* Simpele, toch professionele styling
 
-Could: 
+### ***Could:*** 
 * Reviews op recepten
-* Rating systeem
 * Dubbele recepten blokkeren of samen voegen
 * Aantekeningen toevoegen bij recept
 * Dark mode
+* Recepten rapporteren
+* Animaties bij poppetjes/personages
 
-Wont:
+### ***Won't:***
 * Meerdere talen
-* Direct berichten sturen naar account
+* Direct berichten sturen naar accounts
 * For you page voor recepten
-
-klant-tip: 
-Wat vind u dat wij moeten veranderen in de lijst?
+* Email-authenticatie

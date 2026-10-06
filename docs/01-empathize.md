@@ -1,4 +1,4 @@
-## onderzoek
+## Onderzoek
 In dit onderzoek wordt er vastgesteld voor welk doelgroep ons product is bedoeld, zowel wat er rekenening mee moet worden gehouden.
 
 Dit document bestaat uit 4 onderdelen, waarbij 3 samengesteld zijn binnen het onderwerp 'doelgroeponderzoek' en het laatste te vinden is binnen het onderwerp 'bronnen'. De eerste 3 zaken zijn gericht naar het vaststellen van het gebruiker door het noemen van zijn pijnpunten, behoftes en wat zij handig zouden vinden in het app beschreven door de klant. In het laatste thema staan alle bronnen gebruikt voor deze onderzoek. Onderaan, binnen het thema doelgroeponderzoek, vindt u de eerste drie gedeeltes.
@@ -29,17 +29,31 @@ Bovendien werd er aan een aantal personen betreffend de doelgroep gevraagd welke
 
 * (Wellicht) de mogelijkheid om reviews in te voeren, zowel de mogelijkheid om recepten te sorteren afhankelijk of zij wel of niet deze hebben
 
-## 2. Bronnen
+<br>
+
+## Persona's
+Gebaseerd op ons onderzoek, werden er verschillende personages gemaakt om een betere beeld te geven van wie ons doelgroep is en wat zij van ons verwachten, waarbij de onderstaande:
+
+<br>
+
+![alt text](./assets/personas/adam_persona.png)
+![alt text](./assets/personas/angela_persona.png)
+![alt text](./assets/personas/jorge_persona.png)
+<br><br>
+
+## Empathy map
+
+Om ons wat beter in de schoenen van generatie Z te passen, hebben wij (ook op basis van ons onderzoek) de volgende empathy map gecreëerd:
+<br>
+
+![alt text](./assets/empathy_map.png)
+
+<br>
+
+## Bronnen
 * https://nl.wikipedia.org/wiki/Generatie_Z
 * https://kro-ncrv.nl/programmas/bertop5/jongeren-koken-minder-ontkoking-reden
 * https://www.foodinspiration.com/be/ontkoking-biedt-kansen-voor-foodservice-en-foodretail/
 * https://www.gwi.com/blog/gen-z-spending-habits
 https://www.gwi.com/blog/generation-z-characteristics
 * Eigen onderzoek (Thomas Rijsdijk, Rick Coomans, Musab Sever)
-
-## personas van klanten
-![alt text](./assets/adam_persona.png)
-![alt text](./assets/angela_persona.png)
-![alt text](./assets/jorge_persona.png)
-## empathy map
-![alt text](./assets/empathy_map2.png)
