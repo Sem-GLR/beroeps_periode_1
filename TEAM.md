@@ -18,6 +18,12 @@ Dezegen in leiding van deze rol zijn eindverantwoordelijk voor het keuzes van vi
 
 Hoewel wij allemaal onze eigen rollen en taken hebben, betekent dit niet dat wij een ander afwijzen als zij om hulp vragen, tenzij wij een goed reden daarvoor hebben (bijvoorbeeld als wij de skills van de ander persoon niet (goed) kunnen beheren, als wij het te druk hebben met onze eigen taken en/of persoonlijke levens, enzovoort). In het algemeen geldt dat ondanks onze rollen, wij elkaar helpen bij complicaties.
  
+## 2.1 afspraken in team werk
+
+**Als je een verandering wilt maken aan een ander persoons werk, vraag dan vooraf of het teamslid deze veranderingen goed vind.**
+
+**Als een ander lid ziek is kan je kan veranderingen maken met toestemming van het teamlid die werkt aan dit onderdeel van het project. Als je grote veranderingen maakt, dan moet je  dit doen wetend dat het veranderd of verwijderd kan worden door het zieke teamlid.**
+
 ## 3. GitHub & Code Afspraken
 
 Het is <u>altijd</u> belangrijk om regels en afpsreken te hebben als het komt tot het werken met (web)software. Dit geldt zowel voor software (wat in dit geval GitHub is) en het werken met programmeertalen:
