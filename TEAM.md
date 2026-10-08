@@ -10,11 +10,11 @@ Uiteraard heeft elk goed development team een goed rol- en taakverdeling waarin 
 
 * **Scrum Master:** Sem van Doorn<br>
 De teamlid met deze rol zijn verantwoordelijk voor de wekelijkse stand-ups, het projects-boord op Github en communicatie die plaatsvindt binnen het team.
+
 * **Lead Design:** Kosta Sârbu<br>
 Dezegen in leiding van deze rol zijn eindverantwoordelijk voor het keuzes van visuele stijlen en UI/UX.
 
-
-* **Lead Git/Dev:** Nicolas Szczepanek<br> De personen met de lead git/dev rol zijn eindverantwoordelijk voor het bewaken van de qualiteit van code en moet streng op PR's letten.
+* **Lead Git/Dev:** Nicolas Szczepanek, Maxim van Roon<br> De personen met de lead git/dev rol zijn eindverantwoordelijk voor het bewaken van de qualiteit van code en moet streng op PR's letten.
 
 Hoewel wij allemaal onze eigen rollen en taken hebben, betekent dit niet dat wij een ander afwijzen als zij om hulp vragen, tenzij wij een goed reden daarvoor hebben (bijvoorbeeld als wij de skills van de ander persoon niet (goed) kunnen beheren, als wij het te druk hebben met onze eigen taken en/of persoonlijke levens, enzovoort). In het algemeen geldt dat ondanks onze rollen, wij elkaar helpen bij complicaties.
  
