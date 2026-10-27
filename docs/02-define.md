@@ -21,6 +21,7 @@ Via een MoSCoW-methodetabel hebben wij goed kunnen vaststellen wat er wel en nie
 * Verschillende manieren om recept te volgen
 * Poppetjes/personages bij stijl
 * Simpele, toch professionele styling
+* Contact Us page
 
 ### ***Could:*** 
 * Reviews op recepten
@@ -29,6 +30,7 @@ Via een MoSCoW-methodetabel hebben wij goed kunnen vaststellen wat er wel en nie
 * Dark mode
 * Recepten rapporteren
 * Animaties bij poppetjes/personages
+* About us page
 
 ### ***Won't:***
 * Meerdere talen
