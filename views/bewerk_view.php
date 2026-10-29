@@ -21,7 +21,7 @@ $ID = $_GET['ID'];
     <label for="naam">naam</label>
     <input type="text" name="naam" value="<?= $rij['naam'] ?>" required>
 
-<!--copy de recept aanmaak page form, met de value al in de input velden.-->
+<!-- IMPORTANT copy de recept aanmaak page form, met de value al in de input velden-->
 
 
 
