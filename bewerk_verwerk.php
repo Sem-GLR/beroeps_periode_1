@@ -18,18 +18,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
 //    kijk of een value alleen letters heeft
-//    if (!preg_match("/^[a-zA-Z]*$/",$naam)){
-//        $letterErr = "*alleen letters*";
-//    }
+    if (!preg_match("/^[a-zA-Z]*$/",$naam)){
+        $letterErr = "*alleen letters*";
+    }
 
     //    als er geen errors zijn dan updaten
     if (empty($leegErr) && empty($letterErr)) {
 
 try {
-    //    values in tabel
+    //  zet de values in  de tabel
     $query = "UPDATE recepten_tabel
     SET naam = :naam,
-    WHERE ID = :ID";
+        naam = :naam,
+        naam = :naam,
+        WHERE ID = :ID";
 
     $stmt = $conn->prepare($query);
 

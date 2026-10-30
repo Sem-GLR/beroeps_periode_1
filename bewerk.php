@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 
 $ID = $_GET["ID"];
 
-$query = "SELECT * FROM recepten_tabel WHERE ID = :ID";
+$query = "SELECT * FROM recepten WHERE ID = :ID";
 $stmt = $conn->prepare($query);
 $stmt->bindParam(":ID", $ID);
 $stmt->execute();

@@ -2,6 +2,8 @@
 
 require 'config.php';
 
+//we moeten code maken die kijkt of een account het recept heeft gemaakt dan kunnen anderen niet alles verwijderen
+
 //pak ID uit de Link
 $ID = $_GET['ID'];
 
