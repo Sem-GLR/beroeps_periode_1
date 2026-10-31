@@ -1,0 +1,235 @@
+.about-body {
+  --about-dark-teal: #00605d;
+  --about-teal: #007a75;
+  --about-aqua: #079996;
+  --about-light-blue: #a9c8ce;
+  --about-orange: #ff9208;
+  --about-red-orange: #ff5a00;
+  --about-red: #c00000;
+  --about-yellow: #ffd600;
+  min-height: 100vh;
+  overflow: auto;
+  background: var(--about-dark-teal);
+  color: #fff;
+}
+
+.about-nav {
+  position: relative;
+  top: auto;
+  padding: 1.4rem clamp(1.2rem, 5vw, 4.5rem);
+}
+
+.about-main {
+  position: relative;
+  isolation: isolate;
+  width: min(1120px, calc(100% - 2.4rem));
+  margin: 0 auto;
+  padding: clamp(4rem, 9vw, 7rem) 0 6rem;
+}
+
+.about-main::before,
+.about-main::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.about-main::before {
+  top: 2rem;
+  left: -7rem;
+  width: 12rem;
+  height: 12rem;
+  border: 1.6rem solid rgba(7, 153, 150, .28);
+}
+
+.about-main::after {
+  right: -6rem;
+  bottom: 4rem;
+  width: 11rem;
+  height: 11rem;
+  background: rgba(169, 200, 206, .2);
+}
+
+.about-header {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  margin: 0 auto clamp(3.5rem, 7vw, 5.5rem);
+  text-align: center;
+}
+
+.about-eyebrow {
+  margin: 0 0 1rem;
+  color: #ffd27a;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.about-header h1 {
+  margin: 0 0 1.25rem;
+  font-size: clamp(2.6rem, 6vw, 5.2rem);
+  line-height: .98;
+}
+
+.about-intro {
+  max-width: 590px;
+  margin: 0 auto 1.8rem;
+  color: rgba(255, 255, 255, .75);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.55;
+}
+
+.stories-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  padding: .8rem 1.2rem;
+  border: 1px solid rgba(255, 248, 236, .24);
+  border-radius: .45rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  background: rgba(255, 255, 255, .1);
+  transition: background .2s ease, border-color .2s ease, color .2s ease, transform .2s ease;
+}
+
+.stories-link:hover {
+  border-color: var(--about-yellow);
+  background: var(--about-yellow);
+  color: var(--about-dark-teal);
+  transform: translateY(-2px);
+}
+
+.stories-link span {
+  color: var(--about-yellow);
+  font-size: 1.2rem;
+}
+
+.stories-link:hover span {
+  color: var(--about-dark-teal);
+}
+
+.team-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+}
+
+.team-card {
+  position: relative;
+  min-height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 1.7rem 1.5rem;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: .8rem;
+  background-color: #b8e0de;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, .055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, .055) 1px, transparent 1px);
+  background-size: 2.2rem 2.2rem;
+  box-shadow: inset 0 0 0 6px rgba(0, 0, 0, .025);
+  transition: background-color .25s ease, transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+}
+
+.team-card:hover {
+  border-color: var(--about-yellow);
+  background-color: var(--about-yellow) !important;
+  box-shadow: 0 14px 30px rgba(255, 214, 0, .2);
+  transform: translateY(-6px);
+}
+
+.team-card:nth-child(2) {
+  background-color: #bde4df;
+}
+
+.team-card:nth-child(3) {
+  background-color: var(--about-light-blue);
+}
+
+.team-card:nth-child(4) {
+  background-color: #b8e0de;
+}
+
+.card-content {
+  position: relative;
+  z-index: 1;
+}
+
+.avatar {
+  width: 3.2rem;
+  height: 3.2rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.6rem;
+  border-radius: 50%;
+  color: #fff;
+  font-size: .95rem;
+  font-weight: 800;
+  letter-spacing: .03em;
+}
+
+.avatar-teal { background: #007a75; }
+.avatar-butter { background: #079996; }
+.avatar-coral { background: #ff9208; color: #000; }
+.avatar-lavender { background: #c00000; }
+
+.team-card h2 {
+  margin: 0 0 .25rem;
+  font-size: 1.15rem;
+  letter-spacing: -.02em;
+}
+
+.role {
+  margin: 0;
+  color: rgba(0, 0, 0, .55);
+  font-size: .82rem;
+}
+
+.quote {
+  margin: 2.2rem 0 0;
+  color: rgba(0, 0, 0, .88);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.card-number {
+  align-self: flex-end;
+  color: rgba(0, 0, 0, .32);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+
+@media (max-width: 980px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .about-main {
+    padding-top: 3rem;
+  }
+
+  .about-header h1 br {
+    display: none;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .team-card {
+    min-height: 320px;
+  }
+}
