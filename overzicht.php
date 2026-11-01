@@ -1,5 +1,5 @@
 <?php
-require 'config.php';
+/* require 'config.php';
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
@@ -11,6 +11,6 @@ $stmt->execute();
 
 $resultaten = $stmt->fetchAll();
 
-$aantalRijen = count($resultaten);
+$aantalRijen = count($resultaten); */
 
-include "views/overzichtpage_view.php";
+include "views/overzicht_view.php";

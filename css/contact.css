@@ -1,0 +1,248 @@
+.contact-body {
+  --peru-teal: #007a75;
+  --peru-aqua: #079996;
+  --peru-light-blue: #a9c8ce;
+  --peru-orange: #ff9208;
+  --peru-red-orange: #ff5a00;
+  --peru-red: #c00000;
+  --peru-yellow: #ffd600;
+  --peru-black: #000;
+  min-height: 100vh;
+  overflow: auto;
+  background: #00605d;
+  color: #fff;
+}
+
+.contact-nav {
+  position: relative;
+  top: auto;
+  background: rgba(0, 80, 77, .88);
+  border-bottom: 1px solid rgba(255, 255, 255, .18);
+}
+
+.contact-nav .links a {
+  color: #fff;
+}
+
+.contact-nav .links a:hover {
+  border-color: var(--peru-orange);
+}
+
+.contact-nav .logo {
+  color: var(--peru-yellow);
+}
+
+.contact-nav .logo:hover {
+  color: var(--peru-aqua);
+}
+
+.contact-nav .cta {
+  background: var(--peru-orange);
+  color: var(--peru-black);
+}
+
+.contact-nav .cta:hover {
+  background: var(--peru-yellow);
+}
+
+.contact-main {
+  position: relative;
+  isolation: isolate;
+  width: min(1120px, calc(100% - 2.4rem));
+  margin: 0 auto;
+  padding: clamp(5rem, 11vw, 8rem) 0 6rem;
+}
+
+.contact-main::before,
+.contact-main::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  opacity: .7;
+  pointer-events: none;
+}
+
+.contact-main::before {
+  top: 4rem;
+  left: -7rem;
+  border: 1.4rem solid rgba(7, 153, 150, .28);
+}
+
+.contact-main::after {
+  right: -6rem;
+  bottom: 3rem;
+  background: rgba(169, 200, 206, .2);
+}
+
+.contact-header {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+  margin: 0 auto clamp(3rem, 7vw, 5rem);
+  text-align: center;
+}
+
+.contact-eyebrow {
+  margin: 0 0 1rem;
+  color: var(--peru-light-blue);
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.contact-header h1 {
+  margin: 0 0 1rem;
+  color: #fff;
+  font-size: clamp(2.5rem, 6vw, 4.8rem);
+  line-height: .98;
+  letter-spacing: -.04em;
+}
+
+.contact-header > p:last-child {
+  max-width: 650px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, .78);
+  font-size: clamp(1rem, 2vw, 1.15rem);
+  line-height: 1.55;
+}
+
+.contact-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  max-width: 720px;
+  margin: 0 auto;
+  scroll-margin-top: 1.5rem;
+}
+
+.contact-card {
+  min-height: 245px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.35rem;
+  border: 1px solid rgba(0, 122, 117, .22);
+  border-radius: .85rem;
+  background: #bde4df;
+  box-shadow: 0 8px 24px rgba(0, 122, 117, .08);
+  transition: border-color .25s ease, box-shadow .25s ease, transform .25s ease;
+}
+
+.contact-card:hover {
+  border-color: var(--peru-teal);
+  box-shadow: 0 14px 30px rgba(0, 122, 117, .16);
+  transform: translateY(-6px);
+}
+
+.contact-card:nth-child(1) {
+  border-top: 4px solid var(--peru-teal);
+}
+
+.contact-card:nth-child(2) {
+  border-top: 4px solid var(--peru-aqua);
+  background: #a9c8ce;
+}
+
+.contact-card:nth-child(2):hover {
+  border-color: var(--peru-aqua);
+}
+
+.contact-icon {
+  width: 2.35rem;
+  height: 2.35rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 2.6rem;
+  border: 1px solid rgba(0, 122, 117, .3);
+  border-radius: .45rem;
+  background: #fff;
+  color: var(--peru-teal);
+  box-shadow: 0 2px 6px rgba(0, 122, 117, .12);
+  transition: background .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease;
+}
+
+.contact-icon svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  transition: transform .25s ease;
+}
+
+.contact-card:hover .contact-icon,
+.contact-icon:hover {
+  background: var(--peru-light-blue);
+  box-shadow: 0 5px 12px rgba(0, 122, 117, .2);
+  transform: rotate(-6deg) scale(1.08);
+}
+
+.contact-card:nth-child(2):hover .contact-icon,
+.contact-card:nth-child(2) .contact-icon:hover {
+  background: rgba(7, 153, 150, .16);
+  box-shadow: 0 5px 12px rgba(7, 153, 150, .24);
+}
+
+.contact-card:hover .contact-icon svg,
+.contact-icon:hover svg {
+  transform: scale(1.12);
+}
+
+.contact-card:nth-child(2) .contact-icon {
+  color: var(--peru-aqua);
+}
+
+.contact-card h2 {
+  margin: 0 0 .45rem;
+  color: var(--peru-black);
+  font-size: 1.05rem;
+}
+
+.contact-card p {
+  margin: 0 0 .95rem;
+  color: rgba(0, 0, 0, .62);
+  font-size: .83rem;
+  line-height: 1.45;
+}
+
+.contact-card a {
+  margin-top: auto;
+  color: var(--peru-red);
+  font-size: .82rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: .2rem;
+  transition: color .2s ease, letter-spacing .2s ease;
+}
+
+.contact-card a:hover {
+  color: var(--peru-teal);
+  letter-spacing: .02em;
+}
+
+.contact-card:nth-child(2) a:hover {
+  color: var(--peru-aqua);
+}
+
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .contact-main {
+    padding-top: 3.5rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-card {
+    min-height: 220px;
+  }
+}
