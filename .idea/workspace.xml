@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb2c515-ec27-4dcc-8fa4-4fdc4ec36a36" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overzicht.php" beforeDir="false" afterPath="$PROJECT_DIR$/overzicht.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/overzicht_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/overzicht_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +78,76 @@
     &quot;assignee&quot;: &quot;NicolasSzczepanek103440&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Sem-GLR/beroeps_periode_1.git&quot;,
-    &quot;accountId&quot;: &quot;698f50bb-e210-47b5-858d-2828e94e4b96&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sem-GLR/beroeps_periode_1.git",
+    "accountId": "188b8082-e051-4d33-8de8-f83afc40c397"
   }
-}</component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000000270100568" />
+      <entry key="MS500" value="1.049730961401572" />
+      <entry key="S2" value="1.7740036000617194" />
+      <entry key="S5" value="2.92354358510993" />
+      <entry key="S10" value="3.9050514624844537" />
+      <entry key="S30" value="5.595676364070738" />
+      <entry key="S60" value="7.509983177120387" />
+      <entry key="M2" value="10.51516483380063" />
+      <entry key="M5" value="17.749223756719317" />
+      <entry key="M10" value="27.184897696373497" />
+      <entry key="M15" value="33.212325237535396" />
+      <entry key="M30" value="41.99195352113286" />
+      <entry key="H1" value="47.8466766762495" />
+      <entry key="H2" value="51.242727869845986" />
+      <entry key="H4" value="53.073688897187935" />
+      <entry key="D1" value="54.67210046245194" />
+      <entry key="W1" value="54.952986476433836" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.1314667728206822E-192" />
+      <entry key="S2" value="1.0313604137898295E-48" />
+      <entry key="S5" value="6.392833801463951E-20" />
+      <entry key="S10" value="2.5970495958112304E-10" />
+      <entry key="S30" value="8.231923224940581E-4" />
+      <entry key="S60" value="0.03902990782672853" />
+      <entry key="M2" value="0.28482381750620045" />
+      <entry key="M5" value="1.097937778959662" />
+      <entry key="M10" value="1.9455816701584845" />
+      <entry key="M15" value="2.424735338437199" />
+      <entry key="M30" value="3.080547696693067" />
+      <entry key="H1" value="3.500232446079619" />
+      <entry key="H2" value="3.7390352228323698" />
+      <entry key="H4" value="3.8665998250238394" />
+      <entry key="D1" value="3.9773481690352277" />
+      <entry key="W1" value="3.9967535986292995" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9659365862329098" />
+      <entry key="MS500" value="1.0423383978706966" />
+      <entry key="S2" value="1.7700805735054528" />
+      <entry key="S5" value="2.920466504258819" />
+      <entry key="S10" value="3.9027575879561067" />
+      <entry key="S30" value="5.5896220646005" />
+      <entry key="S60" value="7.53028889357914" />
+      <entry key="M2" value="10.773169423833306" />
+      <entry key="M5" value="18.820334746751428" />
+      <entry key="M10" value="29.108721891517185" />
+      <entry key="M15" value="35.61934570262208" />
+      <entry key="M30" value="45.06142199999777" />
+      <entry key="H1" value="51.34065317471867" />
+      <entry key="H2" value="54.978430592483974" />
+      <entry key="H4" value="56.93856775113227" />
+      <entry key="D1" value="58.64915387694657" />
+      <entry key="W1" value="58.9496977687641" />
+    </decayedShown>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.4.10/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -88,15 +158,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "new__main",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/USER/Downloads/clone_beroeps",
+    "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -115,8 +194,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PS-262.9437.196" />
-        <option value="bundled-php-predefined-a98d8de5180a-9522f28f0b20-com.jetbrains.php.sharedIndexes-PS-262.9437.196" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PS-261.24374.185" />
+        <option value="bundled-php-predefined-a98d8de5180a-6bbb74dbab74-com.jetbrains.php.sharedIndexes-PS-261.24374.185" />
       </set>
     </attachedChunks>
   </component>
@@ -144,10 +223,22 @@
       <workItem from="1793657817148" duration="1000" />
       <workItem from="1793661387157" duration="1000" />
       <workItem from="1793661523698" duration="2000" />
+      <workItem from="1793699243522" duration="2823000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/views/overzicht_view.php</url>
+          <line>54</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

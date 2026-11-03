@@ -1,16 +1,15 @@
 <?php
-/* require 'config.php';
+require 'configs/conn.php';
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-
-$query = "SELECT * FROM recipes";
+$query = "SELECT * FROM recipe";
 $stmt = $conn->prepare($query);
 $stmt->execute();
 
 $resultaten = $stmt->fetchAll();
 
-$aantalRijen = count($resultaten); */
+$aantalRijen = count($resultaten);
 
 include "views/overzicht_view.php";
