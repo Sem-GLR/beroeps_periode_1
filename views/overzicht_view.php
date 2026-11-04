@@ -46,10 +46,22 @@
     if ($aantalRijen > 0){ ?>
         <!--   voor elk recept zet het de html/php code hierbinnen-->
         <?php foreach ($resultaten as $rij) { ?>
-            <a>recept_naam: <?= $rij['recept_naam'] ?></a>
+                <div style="border: black solid 5px; width: fit-content">
+            <h3> recept_naam:  <?= $rij['recept_naam']?></h3>
             <h3>rating: <?= $rij['rating'] ?></h3>
             <h3>kook_tijd: <?= $rij['kook_tijd'] ?></h3>
+            <p style="position: relative" >datum: <?= $rij['post_datum'] ?></p>
 
+<!--        kijkt of er tags zijn-->
+            <?php if ($aantalRijen_tag > 0){
+//                elke tag word bekeken
+                    foreach ($resultaten_tag as $tag) {?>
+        <p> ik moet nog wat veranderen aan de tags</p>
+            <?php }
+            }else{?>
+                <p>geen tags</p>
+            <?php }?>
+                </div>
         <?php }
     } else {
         echo '<h2>er zit geen data in het database</h2>';
