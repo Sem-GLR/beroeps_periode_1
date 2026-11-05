@@ -19,7 +19,7 @@ function oud(array $oud, string $veld, string $standaard = ''): string {
 
 <header>
     <div class="header-balk">
-        <a class="logo" href="index_new.php">FoodFreaks</a>
+        <a class="logo" href="index.php">FoodFreaks</a>
         <a class="knop-oranje" href="logout.php">Log uit</a>
     </div>
     <h1>Recept toevoegen</h1>

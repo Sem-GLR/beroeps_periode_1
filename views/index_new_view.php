@@ -22,7 +22,7 @@
 
   <!-- hero -->
   <header class="hero">
-    <video autoplay muted loop playsinline preload="auto">
+    <video id="heroVideo" autoplay muted loop playsinline preload="auto">
       <source src="../media/herovid.mp4" type="video/mp4">
     </video>
     <nav class="bg-gray opacity-300 fixed top-0 w-[100%] z-10">
