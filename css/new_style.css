@@ -1,0 +1,27 @@
+/* fonts */
+
+@font-face {
+    font-family: "k2d";
+    src: url("../fonts/K2D-Regular.ttf");
+}
+@font-face {
+    font-family: "bebas";
+    src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+/* elements */
+nav {
+    background: rgba(0, 40, 38, .2);
+    backdrop-filter: blur(10px);
+}
+
+.hover {
+    transition: scale 0.5s;
+}
+.hover:hover {
+    scale: 125%;
+}
+
+.inherit {
+    width: inherit;
+}
