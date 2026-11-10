@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb2c515-ec27-4dcc-8fa4-4fdc4ec36a36" name="Changes" comment="feat: view detailpagina begonnen maken, bijhorende foto's/icoontjes toegevoegd, folder voor icoontjes + foto's gemaakt&#10;refactor: deels nieuwe navbar met tailwind gemaakt" />
+    <list default="true" id="8eb2c515-ec27-4dcc-8fa4-4fdc4ec36a36" name="Changes" comment="feat: view detailpagina begonnen maken, bijhorende foto's/icoontjes toegevoegd, folder voor icoontjes + foto's gemaakt&#10;refactor: deels nieuwe navbar met tailwind gemaakt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bewerk_verwerk.php" beforeDir="false" afterPath="$PROJECT_DIR$/bewerk_verwerk.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,10 +77,17 @@
     &quot;assignee&quot;: &quot;NicolasSzczepanek103440&quot;
   }
 }</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Sem-GLR/beroeps_periode_1.git",
-    "accountId": "698f50bb-e210-47b5-858d-2828e94e4b96"
+    "accountId": "849841e0-94f9-41f4-af72-205322a0a96b"
   }
 }]]></component>
   <component name="McpProjectServerCommands">
@@ -88,62 +98,62 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000120576207" />
-      <entry key="S5" value="1.0017792428573626" />
-      <entry key="S10" value="1.1013301362889425" />
-      <entry key="S30" value="2.5330706946346755" />
-      <entry key="S60" value="4.064838530923974" />
-      <entry key="M2" value="5.9367736956642085" />
-      <entry key="M5" value="11.851090479605148" />
-      <entry key="M10" value="22.34363137039152" />
-      <entry key="M15" value="31.92999559251334" />
-      <entry key="M30" value="57.79020113771157" />
-      <entry key="H1" value="99.95630854222807" />
-      <entry key="H2" value="148.35874130538124" />
-      <entry key="H4" value="187.5001880924656" />
-      <entry key="D1" value="232.32058459185492" />
-      <entry key="W1" value="241.43471043504803" />
+      <entry key="S2" value="1.0000131605510791" />
+      <entry key="S5" value="1.0155836009031594" />
+      <entry key="S10" value="1.1843102829372802" />
+      <entry key="S30" value="2.234055928229116" />
+      <entry key="S60" value="3.166466904906771" />
+      <entry key="M2" value="3.935589697046039" />
+      <entry key="M5" value="5.683144620301747" />
+      <entry key="M10" value="12.171192674331605" />
+      <entry key="M15" value="20.56284648783936" />
+      <entry key="M30" value="46.568567092967584" />
+      <entry key="H1" value="91.453955053639" />
+      <entry key="H2" value="146.11919840157103" />
+      <entry key="H4" value="192.48994414525617" />
+      <entry key="D1" value="247.59038577473626" />
+      <entry key="W1" value="259.0281914042979" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="5.79208303029917E-277" />
-      <entry key="S2" value="8.723860218103754E-70" />
-      <entry key="S5" value="2.380364349858814E-28" />
-      <entry key="S10" value="1.604265324921681E-14" />
-      <entry key="S30" value="3.849399232286561E-5" />
-      <entry key="S60" value="0.011137737320287059" />
-      <entry key="M2" value="0.2799304602195797" />
-      <entry key="M5" value="3.4548543359850172" />
-      <entry key="M10" value="10.32671818307018" />
-      <entry key="M15" value="15.625660902188711" />
-      <entry key="M30" value="25.096486523516997" />
-      <entry key="H1" value="34.8104109352673" />
-      <entry key="H2" value="43.88090906118212" />
-      <entry key="H4" value="50.69478080075578" />
-      <entry key="D1" value="58.231505278928296" />
-      <entry key="W1" value="59.74132139877878" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.3253437362831155E-280" />
+      <entry key="S5" value="1.1201891709665378E-112" />
+      <entry key="S10" value="1.1005256343501647E-56" />
+      <entry key="S30" value="3.3949569962922454E-19" />
+      <entry key="S60" value="1.0459661550710072E-9" />
+      <entry key="M2" value="8.578482875877832E-5" />
+      <entry key="M5" value="0.13582317350440717" />
+      <entry key="M10" value="2.0475494133718675" />
+      <entry key="M15" value="5.313162589081015" />
+      <entry key="M30" value="14.634243615148781" />
+      <entry key="H1" value="26.582010659674186" />
+      <entry key="H2" value="38.34554854984981" />
+      <entry key="H4" value="47.389586468313034" />
+      <entry key="D1" value="57.580835422003474" />
+      <entry key="W1" value="59.64549864013493" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9201876506248751" />
-      <entry key="MS500" value="0.9835020740262483" />
-      <entry key="S2" value="0.9958497635637655" />
-      <entry key="S5" value="1.0000254232625678" />
-      <entry key="S10" value="1.0979239520544108" />
-      <entry key="S30" value="2.519941876087143" />
-      <entry key="S60" value="4.062641203198603" />
-      <entry key="M2" value="6.20211231336898" />
-      <entry key="M5" value="15.27512286129474" />
-      <entry key="M10" value="32.62410307916103" />
-      <entry key="M15" value="47.506572282048474" />
-      <entry key="M30" value="82.84313079094692" />
-      <entry key="H1" value="134.73412210222617" />
-      <entry key="H2" value="192.21827130351147" />
-      <entry key="H4" value="238.182397693419" />
-      <entry key="D1" value="290.5496522058737" />
-      <entry key="W1" value="301.1756738656391" />
+      <entry key="MS100" value="8.936069921543125E-5" />
+      <entry key="MS500" value="0.15496346249237333" />
+      <entry key="S2" value="0.6274316244792393" />
+      <entry key="S5" value="0.8454543871397574" />
+      <entry key="S10" value="1.095137267479006" />
+      <entry key="S30" value="2.2029458617696895" />
+      <entry key="S60" value="3.1505323981965763" />
+      <entry key="M2" value="3.9275413604269125" />
+      <entry key="M5" value="5.81409616820012" />
+      <entry key="M10" value="14.20719867287403" />
+      <entry key="M15" value="25.857457153911948" />
+      <entry key="M30" value="61.176260230071264" />
+      <entry key="H1" value="118.01042047130309" />
+      <entry key="H2" value="184.44571523345635" />
+      <entry key="H4" value="239.86759802023656" />
+      <entry key="D1" value="305.16877968645207" />
+      <entry key="W1" value="318.67332818686566" />
     </decayedShown>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.4.10/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -160,7 +170,8 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "new__main",
+    "git-widget-placeholder": "main",
+    "git.auto.fetch.suggestion.counter": "3",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/USER/Downloads/clone_beroeps",
     "node.js.detected.package.eslint": "true",
@@ -190,8 +201,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PS-262.9437.196" />
-        <option value="bundled-php-predefined-a98d8de5180a-9522f28f0b20-com.jetbrains.php.sharedIndexes-PS-262.9437.196" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PS-261.24374.185" />
+        <option value="bundled-php-predefined-a98d8de5180a-6bbb74dbab74-com.jetbrains.php.sharedIndexes-PS-261.24374.185" />
       </set>
     </attachedChunks>
   </component>
@@ -223,6 +234,7 @@
       <workItem from="1793780732387" duration="3227000" />
       <workItem from="1793869744804" duration="5298000" />
       <workItem from="1793905573170" duration="1170000" />
+      <workItem from="1794304062985" duration="3078000" />
     </task>
     <task id="LOCAL-00001" summary="feat: view detailpagina begonnen maken, bijhorende foto's/icoontjes toegevoegd, folder voor icoontjes + foto's gemaakt&#10;refactor: deels nieuwe navbar met tailwind gemaakt">
       <option name="closed" value="true" />
