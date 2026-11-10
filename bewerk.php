@@ -1,6 +1,6 @@
 <?php
 
-require("config.php");
+require("conn.php");
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);

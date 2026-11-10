@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8eb2c515-ec27-4dcc-8fa4-4fdc4ec36a36" name="Changes" comment="">
+    <list default="true" id="985013c7-3bcb-4024-a1ee-4deb5b8ad369" name="Changes" comment="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina">
+      <change afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recepten.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/recepten_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bewerk.php" beforeDir="false" afterPath="$PROJECT_DIR$/bewerk.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,144 +15,106 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <execution>
-        <execution>
-          <execution>
-            <execution>
-              <execution>
-                <execution>
-                  <execution>
-                    <execution>
-                      <execution>
-                        <execution>
-                          <execution>
-                            <execution>
-                              <execution>
-                                <execution>
-                                  <execution>
-                                    <execution>
-                                      <execution>
-                                        <execution>
-                                          <execution />
-                                        </execution>
-                                      </execution>
-                                    </execution>
-                                  </execution>
-                                </execution>
-                              </execution>
-                            </execution>
-                          </execution>
-                        </execution>
-                      </execution>
-                    </execution>
-                  </execution>
-                </execution>
-              </execution>
-            </execution>
-          </execution>
-        </execution>
-      </execution>
-    </execution>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="PHP File" />
-      </list>
-    </option>
+    <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;NicolasSzczepanek103440&quot;
+    &quot;assignee&quot;: &quot;103428&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Sem-GLR/beroeps_periode_1.git&quot;,
-    &quot;accountId&quot;: &quot;698f50bb-e210-47b5-858d-2828e94e4b96&quot;
+    &quot;accountId&quot;: &quot;dbbe79ad-88d7-4c40-8c82-f3c9711cf79c&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;Sem-GLR&quot;,
+    &quot;repository&quot;: &quot;beroeps_periode_1&quot;
   }
 }</component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.4.10/bin/php" />
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
 }</component>
-  <component name="ProjectId" id="3LSl1Gb2xSt5kZXcHQ0fjoYng3s" />
+  <component name="ProjectId" id="3LgMKpjWEG7HB2yKhkMh4Ozownm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "new__main",
-    "last_opened_file_path": "C:/Users/USER/Downloads/clone_beroeps",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;27-toevoeg-page-front-end&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Maxim/Jaar 2/Beroeps2/Repo&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\Downloads\clone_beroeps" />
-      <recent name="C:\Users\USER\Downloads\clone_beroeps\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\Downloads\clone_beroeps\views" />
-      <recent name="C:\Users\USER\Downloads\clone_beroeps\fonts" />
-      <recent name="C:\Users\USER\Downloads\clone_beroeps\css" />
-      <recent name="C:\Users\USER\Downloads\clone_beroeps\js" />
-      <recent name="C:\Users\USER\Downloads\clone_beroeps" />
-    </key>
-  </component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PS-262.9437.196" />
-        <option value="bundled-php-predefined-a98d8de5180a-9522f28f0b20-com.jetbrains.php.sharedIndexes-PS-262.9437.196" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PS-261.24374.185" />
+        <option value="bundled-php-predefined-a98d8de5180a-6bbb74dbab74-com.jetbrains.php.sharedIndexes-PS-261.24374.185" />
       </set>
     </attachedChunks>
   </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="PHP" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8eb2c515-ec27-4dcc-8fa4-4fdc4ec36a36" name="Changes" comment="" />
-      <created>1793455132927</created>
+      <changelist id="985013c7-3bcb-4024-a1ee-4deb5b8ad369" name="Changes" comment="toevoegpagina, zeg voor changes en wat tailwind kan zijn" />
+      <created>1793871197049</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1793455132927</updated>
-      <workItem from="1793455133930" duration="2490000" />
-      <workItem from="1793536462512" duration="4848000" />
-      <workItem from="1793541360736" duration="6000" />
-      <workItem from="1793541393175" duration="402000" />
-      <workItem from="1793544327372" duration="3963000" />
-      <workItem from="1793567467415" duration="3111000" />
-      <workItem from="1793571215059" duration="558000" />
-      <workItem from="1793571790078" duration="10000" />
-      <workItem from="1793571948011" duration="46000" />
-      <workItem from="1793572386622" duration="8161000" />
-      <workItem from="1793582112717" duration="1167000" />
-      <workItem from="1793632618447" duration="1194000" />
-      <workItem from="1793645331417" duration="1000" />
-      <workItem from="1793646612107" duration="4000" />
-      <workItem from="1793657817148" duration="1000" />
-      <workItem from="1793661387157" duration="1000" />
-      <workItem from="1793661523698" duration="2000" />
+      <updated>1793871197049</updated>
+      <workItem from="1793871198107" duration="4426000" />
+      <workItem from="1794303560036" duration="2684000" />
+      <workItem from="1794306409833" duration="768000" />
+      <workItem from="1794307200916" duration="309000" />
     </task>
+    <task id="LOCAL-00001" summary="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina">
+      <option name="closed" value="true" />
+      <created>1793876716424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1793876716424</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina" />
+    <option name="LAST_COMMIT_MESSAGE" value="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina" />
   </component>
 </project>
