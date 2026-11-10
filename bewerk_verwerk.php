@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 require 'configs/conn.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    //get alle values in de form
+    //get alle values in de forms
     $ID = $_GET['ID'];
     $receptnaam = $_POST['receptnaam'];
     $kook_tijd = $_POST['kook_tijd'];
