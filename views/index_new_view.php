@@ -86,8 +86,8 @@
       <article
         class="min-h-[330px] rounded-xl border border-[#b8e0de] bg-[#b8e0de] bg-[linear-gradient(rgba(0,0,0,.055)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,.055)_1px,transparent_1px)] bg-[size:2.2rem_2.2rem] p-7 text-black transition duration-300 hover:-translate-y-1.5 hover:border-[#ffd27a]">
         <div class="mb-6 grid h-[3.2rem] w-[3.2rem] place-items-center rounded-full bg-[#007a75] text-sm font-extrabold text-white"
-          aria-hidden="true">SJ</div>
-        <h3 class="text-lg font-semibold">Sarah Janssen</h3>
+          aria-hidden="true">Ks</div>
+        <h3 class="text-lg font-semibold">Kosta Sarbu</h3>
         <p class="text-sm text-black/55">Front-end developer</p>
         <p class="mt-9 leading-relaxed text-black/90">“I turned our ideas into a clear and inviting interface that
           makes FoodFreaks easy to explore.”</p>
@@ -95,8 +95,8 @@
       <article
         class="min-h-[330px] rounded-xl border border-[#bde4df] bg-[#bde4df] bg-[linear-gradient(rgba(0,0,0,.055)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,.055)_1px,transparent_1px)] bg-[size:2.2rem_2.2rem] p-7 text-black transition duration-300 hover:-translate-y-1.5 hover:border-[#079996]">
         <div class="mb-6 grid h-[3.2rem] w-[3.2rem] place-items-center rounded-full bg-[#079996] text-white text-sm font-extrabold"
-          aria-hidden="true">LM</div>
-        <h3 class="text-lg font-semibold">Lucas Meijer</h3>
+          aria-hidden="true">NS</div>
+        <h3 class="text-lg font-semibold">Nicolas Szczepanek</h3>
         <p class="text-sm text-black/55">Back-end developer</p>
         <p class="mt-9 leading-relaxed text-black/90">“I built the structure behind the website so every part of
           the experience works smoothly.”</p>
@@ -104,8 +104,8 @@
       <article
         class="min-h-[330px] rounded-xl border border-[#ffd6a3] bg-[#ffd6a3] bg-[linear-gradient(rgba(0,0,0,.055)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,.055)_1px,transparent_1px)] bg-[size:2.2rem_2.2rem] p-7 text-black transition duration-300 hover:-translate-y-1.5 hover:border-[#ff9208]">
         <div class="mb-6 grid h-[3.2rem] w-[3.2rem] place-items-center rounded-full bg-[#ff9208] text-sm font-extrabold text-black"
-          aria-hidden="true">NA</div>
-        <h3 class="text-lg font-semibold">Nora Ahmed</h3>
+          aria-hidden="true">MR</div>
+        <h3 class="text-lg font-semibold">Maxim van Roon</h3>
         <p class="text-sm text-black/55">UI/UX designer</p>
         <p class="mt-9 leading-relaxed text-black/90">“I focused on making every page feel friendly, useful and easy
           to understand.”</p>
@@ -113,9 +113,9 @@
       <article
         class="min-h-[330px] rounded-xl border border-[#f2b1aa] bg-[#f2b1aa] bg-[linear-gradient(rgba(0,0,0,.055)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,.055)_1px,transparent_1px)] bg-[size:2.2rem_2.2rem] p-7 text-black transition duration-300 hover:-translate-y-1.5 hover:border-[#c00000]">
         <div class="mb-6 grid h-[3.2rem] w-[3.2rem] place-items-center rounded-full bg-[#c00000] text-sm font-extrabold text-white"
-          aria-hidden="true">DV</div>
-        <h3 class="text-lg font-semibold">Daan Visser</h3>
-        <p class="text-sm text-black/55">Full-stack developer</p>
+          aria-hidden="true">SD</div>
+        <h3 class="text-lg font-semibold">Sem van Doorn</h3>
+        <p class="text-sm text-black/55">Backend developer</p>
         <p class="mt-9 leading-relaxed text-black/90">“I connected the design and functionality to bring the
           FoodFreaks idea to life.”</p>
       </article>
