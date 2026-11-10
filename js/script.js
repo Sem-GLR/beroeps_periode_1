@@ -32,6 +32,14 @@ if (searchForm) {
 }
 
 if (heroVideo) {
+  heroVideo.loop = true;
+  heroVideo.addEventListener('ended', () => {
+    heroVideo.currentTime = 0;
+    void heroVideo.play().catch(() => {
+      // Ignore autoplay rejections; loop attribute remains active.
+    });
+  });
+
   window.addEventListener('beforeunload', () => {
     heroVideo.pause();
     heroVideo.removeAttribute('src');

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="83ce551c-c62b-4a11-bc4a-7b59ae3943c6" name="web03" url="http://102819.stu.sd-lab.nl/beroeps2">
+        <fileTransfer rootFolder="/httpdocs/beroeps2" host="web03.sd-lab.nl" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
