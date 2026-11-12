@@ -10,11 +10,11 @@
   <link href="https://fonts.googleapis.com/css2?family=K2D:wght@400;500;600;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=K2D:wght@300;400;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/overzichtspagina.css">
+  <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/overzichtspagina.css">
 
-  <script src="../js/script.js" defer></script>
-    <script src="../js/overzichtspagina.js" defer></script>
+  <script src="./js/script.js" defer></script>
+    <script src="./js/overzichtspagina.js" defer></script>
 
 </head>
 
@@ -26,7 +26,7 @@
       <source src="../media/herovid.mp4" type="video/mp4">
     </video>
     <nav class="bg-gray opacity-300 fixed top-0 w-[100%] z-10">
-      <a class="logo" href="index.php">FoodFreaks</a>
+      <a class="logo" href="../index.php">FoodFreaks</a>
       <ul class="links">
         <li><a href="index.php">Main page</a></li>
         <li><a href="overzicht.php">Recipes</a></li>
