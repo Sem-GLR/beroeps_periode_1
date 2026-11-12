@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="985013c7-3bcb-4024-a1ee-4deb5b8ad369" name="Changes" comment="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina">
-      <change afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recepten.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/recepten_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toevoeg_verwerk.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bewerk.php" beforeDir="false" afterPath="$PROJECT_DIR$/bewerk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verwijder.php" beforeDir="false" afterPath="$PROJECT_DIR$/verwijder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/overzicht_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/overzicht_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/verwijder_waarschuwing_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/verwijder_waarschuwing_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="PHP File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,22 +35,85 @@
     &quot;assignee&quot;: &quot;103428&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Sem-GLR/beroeps_periode_1.git&quot;,
-    &quot;accountId&quot;: &quot;dbbe79ad-88d7-4c40-8c82-f3c9711cf79c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sem-GLR/beroeps_periode_1.git",
+    "accountId": "4a1fece2-77b6-4cd4-869e-4056e39b28ff"
   },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
     },
-    &quot;owner&quot;: &quot;Sem-GLR&quot;,
-    &quot;repository&quot;: &quot;beroeps_periode_1&quot;
+    "owner": "Sem-GLR",
+    "repository": "beroeps_periode_1"
   }
-}</component>
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0001170976767872" />
+      <entry key="S2" value="1.1061448623701755" />
+      <entry key="S5" value="1.5512614551912973" />
+      <entry key="S10" value="2.2984502648716068" />
+      <entry key="S30" value="4.188731241726719" />
+      <entry key="S60" value="6.1674046624838175" />
+      <entry key="M2" value="10.0092261606583" />
+      <entry key="M5" value="19.546769215663264" />
+      <entry key="M10" value="32.74280511381541" />
+      <entry key="M15" value="45.46469766876769" />
+      <entry key="M30" value="75.47865382133033" />
+      <entry key="H1" value="106.60575580878509" />
+      <entry key="H2" value="130.14493220147273" />
+      <entry key="H4" value="144.83748174734083" />
+      <entry key="D1" value="158.94783991694413" />
+      <entry key="W1" value="161.55898839919098" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="2.4889810152383455E-34" />
+      <entry key="MS500" value="1.9019728656030472E-7" />
+      <entry key="S2" value="0.02088339385358905" />
+      <entry key="S5" value="0.2127749179329065" />
+      <entry key="S10" value="0.46127531684765716" />
+      <entry key="S30" value="0.772656991290314" />
+      <entry key="S60" value="0.8790091383410726" />
+      <entry key="M2" value="0.9377708097015811" />
+      <entry key="M5" value="1.0807295276878721" />
+      <entry key="M10" value="3.198530667726136" />
+      <entry key="M15" value="7.789839050472545" />
+      <entry key="M30" value="22.75633157596057" />
+      <entry key="H1" value="40.43143232786948" />
+      <entry key="H2" value="54.23529143500942" />
+      <entry key="H4" value="62.89720576472047" />
+      <entry key="D1" value="71.20626757286942" />
+      <entry key="W1" value="72.74092120723398" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9330329915368074" />
+      <entry key="MS500" value="0.9862671818739284" />
+      <entry key="S2" value="1.078968592192648" />
+      <entry key="S5" value="1.6028028113421244" />
+      <entry key="S10" value="2.566814614896943" />
+      <entry key="S30" value="4.833751464983324" />
+      <entry key="S60" value="6.9630988719881515" />
+      <entry key="M2" value="10.89378330227844" />
+      <entry key="M5" value="20.595419627247544" />
+      <entry key="M10" value="35.90882928843681" />
+      <entry key="M15" value="53.21639349653649" />
+      <entry key="M30" value="98.19223691690046" />
+      <entry key="H1" value="147.0024394408398" />
+      <entry key="H2" value="184.35766962461773" />
+      <entry key="H4" value="207.72178467535463" />
+      <entry key="D1" value="230.15169652306386" />
+      <entry key="W1" value="234.29955829780843" />
+    </decayedShown>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.4.10/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7,
@@ -52,19 +124,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;27-toevoeg-page-front-end&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/Maxim/Jaar 2/Beroeps2/Repo&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Volumes/Maxim/Jaar 2/Beroeps2/Repo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,6 +167,7 @@
       <workItem from="1794303560036" duration="2684000" />
       <workItem from="1794306409833" duration="768000" />
       <workItem from="1794307200916" duration="309000" />
+      <workItem from="1794475857676" duration="6391000" />
     </task>
     <task id="LOCAL-00001" summary="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina">
       <option name="closed" value="true" />
