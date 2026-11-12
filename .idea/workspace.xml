@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb2c515-ec27-4dcc-8fa4-4fdc4ec36a36" name="Changes" comment="feat: view detailpagina begonnen maken, bijhorende foto's/icoontjes toegevoegd, folder voor icoontjes + foto's gemaakt&#10;refactor: deels nieuwe navbar met tailwind gemaakt">
+    <list default="true" id="985013c7-3bcb-4024-a1ee-4deb5b8ad369" name="Changes" comment="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina">
+      <change afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recepten.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/recepten_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/about.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/about.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contact-form.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact-form.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contact.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/detail_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/detail_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index_new_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index_new_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/overzicht_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/overzicht_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/signup.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/signup.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/toevoeg_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/toevoeg_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bewerk.php" beforeDir="false" afterPath="$PROJECT_DIR$/bewerk.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,190 +15,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <execution>
-        <execution>
-          <execution>
-            <execution>
-              <execution>
-                <execution>
-                  <execution>
-                    <execution>
-                      <execution>
-                        <execution>
-                          <execution>
-                            <execution>
-                              <execution>
-                                <execution>
-                                  <execution>
-                                    <execution>
-                                      <execution>
-                                        <execution>
-                                          <execution>
-                                            <execution />
-                                          </execution>
-                                        </execution>
-                                      </execution>
-                                    </execution>
-                                  </execution>
-                                </execution>
-                              </execution>
-                            </execution>
-                          </execution>
-                        </execution>
-                      </execution>
-                    </execution>
-                  </execution>
-                </execution>
-              </execution>
-            </execution>
-          </execution>
-        </execution>
-      </execution>
-    </execution>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="PHP File" />
-      </list>
-    </option>
+    <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;NicolasSzczepanek103440&quot;
+    &quot;assignee&quot;: &quot;103428&quot;
   }
 }</component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="main" />
-      </list>
-    </option>
-  </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Sem-GLR/beroeps_periode_1.git",
-    "accountId": "4a1fece2-77b6-4cd4-869e-4056e39b28ff"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sem-GLR/beroeps_periode_1.git&quot;,
+    &quot;accountId&quot;: &quot;dbbe79ad-88d7-4c40-8c82-f3c9711cf79c&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;Sem-GLR&quot;,
+    &quot;repository&quot;: &quot;beroeps_periode_1&quot;
   }
-}]]></component>
-  <component name="McpProjectServerCommands">
-    <commands />
-    <urls />
-  </component>
-  <component name="NextEditCompletionFeaturesState">
-    <decayedCancelled>
-      <entry key="MS100" value="1.0177797739563528" />
-      <entry key="MS500" value="1.8398407754073491" />
-      <entry key="S2" value="3.9877925368005402" />
-      <entry key="S5" value="5.843488205809591" />
-      <entry key="S10" value="8.315645166372484" />
-      <entry key="S30" value="13.599688946575418" />
-      <entry key="S60" value="16.41727752017848" />
-      <entry key="M2" value="19.195534861922653" />
-      <entry key="M5" value="24.29312463084697" />
-      <entry key="M10" value="30.656235369200747" />
-      <entry key="M15" value="37.40728457184815" />
-      <entry key="M30" value="60.38777870848625" />
-      <entry key="H1" value="104.85187807494118" />
-      <entry key="H2" value="163.85652411807388" />
-      <entry key="H4" value="216.88086620714137" />
-      <entry key="D1" value="282.6183219877203" />
-      <entry key="W1" value="296.58248813774924" />
-    </decayedCancelled>
-    <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.163496392127918E-134" />
-      <entry key="S5" value="3.4202863732131105E-54" />
-      <entry key="S10" value="1.8494016257442925E-27" />
-      <entry key="S30" value="1.227761109626004E-9" />
-      <entry key="S60" value="3.5576036863622844E-5" />
-      <entry key="M2" value="0.006654460497664741" />
-      <entry key="M5" value="0.1890296397151511" />
-      <entry key="M10" value="0.9769410771764335" />
-      <entry key="M15" value="2.6222922744000687" />
-      <entry key="M30" value="9.692488853798132" />
-      <entry key="H1" value="21.725021278932463" />
-      <entry key="H2" value="35.1455077306464" />
-      <entry key="H4" value="46.088694131516625" />
-      <entry key="D1" value="58.89656574491373" />
-      <entry key="W1" value="61.54382510147553" />
-    </decayedSelected>
-    <decayedShown>
-      <entry key="MS100" value="0.02468566178119776" />
-      <entry key="MS500" value="1.038082666073952" />
-      <entry key="S2" value="3.5127924526785925" />
-      <entry key="S5" value="5.547724647388982" />
-      <entry key="S10" value="8.08664568907046" />
-      <entry key="S30" value="13.463106161167685" />
-      <entry key="S60" value="16.330746288743676" />
-      <entry key="M2" value="19.14492829587402" />
-      <entry key="M5" value="24.445590697435094" />
-      <entry key="M10" value="31.60544385860597" />
-      <entry key="M15" value="40.003466115658085" />
-      <entry key="M30" value="70.05290408961176" />
-      <entry key="H1" value="126.5507714437639" />
-      <entry key="H2" value="198.98186661676687" />
-      <entry key="H4" value="262.95656832107454" />
-      <entry key="D1" value="341.5121553758032" />
-      <entry key="W1" value="358.1259061855581" />
-    </decayedShown>
-  </component>
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.4.10/bin/php" />
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
 }</component>
-  <component name="ProjectId" id="3LSl1Gb2xSt5kZXcHQ0fjoYng3s" />
+  <component name="ProjectId" id="3LgMKpjWEG7HB2yKhkMh4Ozownm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;3&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Downloads/clone_beroeps&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;27-toevoeg-page-front-end&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Maxim/Jaar 2/Beroeps2/Repo&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\Downloads\clone_beroeps" />
-      <recent name="C:\Users\USER\Downloads\clone_beroeps\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\Desktop\cdc\images" />
-      <recent name="C:\Users\USER\Desktop\cdc" />
-      <recent name="C:\Users\USER\Desktop\cdc\views" />
-      <recent name="C:\Users\USER\Desktop\cdc\css" />
-      <recent name="C:\Users\USER\Downloads\clone_beroeps\views" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -214,72 +73,48 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="PHP" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8eb2c515-ec27-4dcc-8fa4-4fdc4ec36a36" name="Changes" comment="" />
-      <created>1793455132927</created>
+      <changelist id="985013c7-3bcb-4024-a1ee-4deb5b8ad369" name="Changes" comment="toevoegpagina, zeg voor changes en wat tailwind kan zijn" />
+      <created>1793871197049</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1793455132927</updated>
-      <workItem from="1793455133930" duration="2490000" />
-      <workItem from="1793536462512" duration="4848000" />
-      <workItem from="1793541360736" duration="6000" />
-      <workItem from="1793541393175" duration="402000" />
-      <workItem from="1793544327372" duration="3963000" />
-      <workItem from="1793567467415" duration="3111000" />
-      <workItem from="1793571215059" duration="558000" />
-      <workItem from="1793571790078" duration="10000" />
-      <workItem from="1793571948011" duration="46000" />
-      <workItem from="1793572386622" duration="8161000" />
-      <workItem from="1793582112717" duration="1167000" />
-      <workItem from="1793632618447" duration="1194000" />
-      <workItem from="1793645331417" duration="1000" />
-      <workItem from="1793646612107" duration="4000" />
-      <workItem from="1793657817148" duration="1000" />
-      <workItem from="1793661387157" duration="1000" />
-      <workItem from="1793661523698" duration="2000" />
-      <workItem from="1793699243522" duration="2823000" />
-      <workItem from="1793780732387" duration="3227000" />
-      <workItem from="1793869744804" duration="5298000" />
-      <workItem from="1793905573170" duration="1170000" />
-      <workItem from="1794304062985" duration="3078000" />
-      <workItem from="1794471724688" duration="1676000" />
+      <updated>1793871197049</updated>
+      <workItem from="1793871198107" duration="4426000" />
+      <workItem from="1794303560036" duration="2684000" />
+      <workItem from="1794306409833" duration="768000" />
+      <workItem from="1794307200916" duration="309000" />
     </task>
-    <task id="LOCAL-00001" summary="feat: view detailpagina begonnen maken, bijhorende foto's/icoontjes toegevoegd, folder voor icoontjes + foto's gemaakt&#10;refactor: deels nieuwe navbar met tailwind gemaakt">
+    <task id="LOCAL-00001" summary="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina">
       <option name="closed" value="true" />
-      <created>1793907979843</created>
+      <created>1793876716424</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1793907979843</updated>
+      <updated>1793876716424</updated>
     </task>
-    <task id="LOCAL-00002" summary="feat: view detailpagina begonnen maken, bijhorende foto's/icoontjes toegevoegd, folder voor icoontjes + foto's gemaakt&#10;refactor: deels nieuwe navbar met tailwind gemaakt">
-      <option name="closed" value="true" />
-      <created>1793907986121</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1793907986121</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: view detailpagina begonnen maken, bijhorende foto's/icoontjes toegevoegd, folder voor icoontjes + foto's gemaakt&#10;refactor: deels nieuwe navbar met tailwind gemaakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: view detailpagina begonnen maken, bijhorende foto's/icoontjes toegevoegd, folder voor icoontjes + foto's gemaakt&#10;refactor: deels nieuwe navbar met tailwind gemaakt" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/views/overzicht_view.php</url>
-          <line>64</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina" />
+    <option name="LAST_COMMIT_MESSAGE" value="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina" />
   </component>
 </project>

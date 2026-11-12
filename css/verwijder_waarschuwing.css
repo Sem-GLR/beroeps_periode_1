@@ -1,0 +1,94 @@
+:root {
+    --achtergrond: #3d6b66;
+    --licht-teal: #548a82;
+    --oranje: #df8342;
+    --oranje-donker: #c56d3a;
+    --rood: #a72f25;
+    --geel: #f5e060;
+    --kaart: #d9d9d9;
+    --tekst: #1f1f1f;
+    --wit: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 3rem 3rem 4rem;
+    background: var(--achtergrond);
+    color: var(--wit);
+    font-family: "Bai Jamjuree", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* dunne lijn bovenaan, zoals op de overzichtspagina */
+.lijn {
+    border: 0;
+    border-top: 1px solid var(--licht-teal);
+    margin: 0 0 4rem;
+}
+
+/* gradient-vlak met kaart erin */
+.vlak {
+    padding: 3rem;
+    background: linear-gradient(to bottom, var(--licht-teal) 0%, var(--achtergrond) 35%, var(--oranje-donker) 100%);
+}
+
+.kaart {
+    max-width: 680px;
+    padding: 2rem 2rem 2.25rem;
+    background: var(--kaart);
+    color: var(--tekst);
+}
+
+.kaart h1 {
+    margin: 0 0 .75rem;
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.kaart p {
+    margin: 0 0 2rem;
+    font-size: 1.2rem;
+}
+
+.knoppen {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* knoppen in dezelfde stijl als de labels op de foto */
+.knop {
+    display: inline-block;
+    padding: .6rem 2.5rem;
+    border-radius: 4px;
+    font-family: "Bebas Neue", Impact, sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: .02em;
+    text-decoration: none;
+    transition: transform .15s ease;
+}
+
+.knop:hover { transform: translateY(-2px); }
+
+.knop:focus-visible {
+    outline: 3px solid var(--tekst);
+    outline-offset: 3px;
+}
+
+.knop-nee { background: var(--achtergrond); color: var(--wit); }
+.knop-ja  { background: var(--rood);        color: var(--wit); }
+
+@media (max-width: 600px) {
+    body { padding: 1.5rem 1.25rem 3rem; }
+    .vlak { padding: 1.25rem; }
+    .kaart h1 { font-size: 1.5rem; }
+    .knop { flex: 1; text-align: center; padding-inline: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .knop { transition: none; }
+    .knop:hover { transform: none; }
+}
