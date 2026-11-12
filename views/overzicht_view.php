@@ -7,10 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=K2D:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/overzichtspagina.css">
+    <link rel="stylesheet" href="./css/overzichtspagina.css">
 
     <!-- JS script moet bewerkt worden. SQL komt erbij -->
-    <script src="../js/overzichtspagina.js" defer></script>
+    <script src="./js/overzichtspagina.js" defer></script>
 
 </head>
 <body>
@@ -61,9 +61,9 @@
             </div>
 
         <?php }
-    } else {
-        echo '<h2>er zit geen data in het database</h2>';
-    } ?>
+    } else { ?>
+        <h2>er zit geen data in het database</h2>
+   <?php } ?>
 
     <section class="empty" id="nieuw-recept">
         <h2>The trail runs cold...</h2>

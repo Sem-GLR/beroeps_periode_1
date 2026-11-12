@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="8eb2c515-ec27-4dcc-8fa4-4fdc4ec36a36" name="Changes" comment="feat: view detailpagina begonnen maken, bijhorende foto's/icoontjes toegevoegd, folder voor icoontjes + foto's gemaakt&#10;refactor: deels nieuwe navbar met tailwind gemaakt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bewerk_verwerk.php" beforeDir="false" afterPath="$PROJECT_DIR$/bewerk_verwerk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/about.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/about.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact-form.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact-form.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/detail_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/detail_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index_new_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index_new_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/overzicht_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/overzicht_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/signup.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/signup.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/toevoeg_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/toevoeg_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +95,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Sem-GLR/beroeps_periode_1.git",
-    "accountId": "849841e0-94f9-41f4-af72-205322a0a96b"
+    "accountId": "4a1fece2-77b6-4cd4-869e-4056e39b28ff"
   }
 }]]></component>
   <component name="McpProjectServerCommands">
@@ -96,61 +104,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000131605510791" />
-      <entry key="S5" value="1.0155836009031594" />
-      <entry key="S10" value="1.1843102829372802" />
-      <entry key="S30" value="2.234055928229116" />
-      <entry key="S60" value="3.166466904906771" />
-      <entry key="M2" value="3.935589697046039" />
-      <entry key="M5" value="5.683144620301747" />
-      <entry key="M10" value="12.171192674331605" />
-      <entry key="M15" value="20.56284648783936" />
-      <entry key="M30" value="46.568567092967584" />
-      <entry key="H1" value="91.453955053639" />
-      <entry key="H2" value="146.11919840157103" />
-      <entry key="H4" value="192.48994414525617" />
-      <entry key="D1" value="247.59038577473626" />
-      <entry key="W1" value="259.0281914042979" />
+      <entry key="MS100" value="1.0177797739563528" />
+      <entry key="MS500" value="1.8398407754073491" />
+      <entry key="S2" value="3.9877925368005402" />
+      <entry key="S5" value="5.843488205809591" />
+      <entry key="S10" value="8.315645166372484" />
+      <entry key="S30" value="13.599688946575418" />
+      <entry key="S60" value="16.41727752017848" />
+      <entry key="M2" value="19.195534861922653" />
+      <entry key="M5" value="24.29312463084697" />
+      <entry key="M10" value="30.656235369200747" />
+      <entry key="M15" value="37.40728457184815" />
+      <entry key="M30" value="60.38777870848625" />
+      <entry key="H1" value="104.85187807494118" />
+      <entry key="H2" value="163.85652411807388" />
+      <entry key="H4" value="216.88086620714137" />
+      <entry key="D1" value="282.6183219877203" />
+      <entry key="W1" value="296.58248813774924" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.3253437362831155E-280" />
-      <entry key="S5" value="1.1201891709665378E-112" />
-      <entry key="S10" value="1.1005256343501647E-56" />
-      <entry key="S30" value="3.3949569962922454E-19" />
-      <entry key="S60" value="1.0459661550710072E-9" />
-      <entry key="M2" value="8.578482875877832E-5" />
-      <entry key="M5" value="0.13582317350440717" />
-      <entry key="M10" value="2.0475494133718675" />
-      <entry key="M15" value="5.313162589081015" />
-      <entry key="M30" value="14.634243615148781" />
-      <entry key="H1" value="26.582010659674186" />
-      <entry key="H2" value="38.34554854984981" />
-      <entry key="H4" value="47.389586468313034" />
-      <entry key="D1" value="57.580835422003474" />
-      <entry key="W1" value="59.64549864013493" />
+      <entry key="S2" value="2.163496392127918E-134" />
+      <entry key="S5" value="3.4202863732131105E-54" />
+      <entry key="S10" value="1.8494016257442925E-27" />
+      <entry key="S30" value="1.227761109626004E-9" />
+      <entry key="S60" value="3.5576036863622844E-5" />
+      <entry key="M2" value="0.006654460497664741" />
+      <entry key="M5" value="0.1890296397151511" />
+      <entry key="M10" value="0.9769410771764335" />
+      <entry key="M15" value="2.6222922744000687" />
+      <entry key="M30" value="9.692488853798132" />
+      <entry key="H1" value="21.725021278932463" />
+      <entry key="H2" value="35.1455077306464" />
+      <entry key="H4" value="46.088694131516625" />
+      <entry key="D1" value="58.89656574491373" />
+      <entry key="W1" value="61.54382510147553" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.936069921543125E-5" />
-      <entry key="MS500" value="0.15496346249237333" />
-      <entry key="S2" value="0.6274316244792393" />
-      <entry key="S5" value="0.8454543871397574" />
-      <entry key="S10" value="1.095137267479006" />
-      <entry key="S30" value="2.2029458617696895" />
-      <entry key="S60" value="3.1505323981965763" />
-      <entry key="M2" value="3.9275413604269125" />
-      <entry key="M5" value="5.81409616820012" />
-      <entry key="M10" value="14.20719867287403" />
-      <entry key="M15" value="25.857457153911948" />
-      <entry key="M30" value="61.176260230071264" />
-      <entry key="H1" value="118.01042047130309" />
-      <entry key="H2" value="184.44571523345635" />
-      <entry key="H4" value="239.86759802023656" />
-      <entry key="D1" value="305.16877968645207" />
-      <entry key="W1" value="318.67332818686566" />
+      <entry key="MS100" value="0.02468566178119776" />
+      <entry key="MS500" value="1.038082666073952" />
+      <entry key="S2" value="3.5127924526785925" />
+      <entry key="S5" value="5.547724647388982" />
+      <entry key="S10" value="8.08664568907046" />
+      <entry key="S30" value="13.463106161167685" />
+      <entry key="S60" value="16.330746288743676" />
+      <entry key="M2" value="19.14492829587402" />
+      <entry key="M5" value="24.445590697435094" />
+      <entry key="M10" value="31.60544385860597" />
+      <entry key="M15" value="40.003466115658085" />
+      <entry key="M30" value="70.05290408961176" />
+      <entry key="H1" value="126.5507714437639" />
+      <entry key="H2" value="198.98186661676687" />
+      <entry key="H4" value="262.95656832107454" />
+      <entry key="D1" value="341.5121553758032" />
+      <entry key="W1" value="358.1259061855581" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.4.10/bin/php" />
@@ -162,29 +170,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "git.auto.fetch.suggestion.counter": "3",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/USER/Downloads/clone_beroeps",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;3&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Downloads/clone_beroeps&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\Downloads\clone_beroeps" />
@@ -235,6 +243,7 @@
       <workItem from="1793869744804" duration="5298000" />
       <workItem from="1793905573170" duration="1170000" />
       <workItem from="1794304062985" duration="3078000" />
+      <workItem from="1794471724688" duration="1676000" />
     </task>
     <task id="LOCAL-00001" summary="feat: view detailpagina begonnen maken, bijhorende foto's/icoontjes toegevoegd, folder voor icoontjes + foto's gemaakt&#10;refactor: deels nieuwe navbar met tailwind gemaakt">
       <option name="closed" value="true" />
