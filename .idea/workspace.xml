@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="985013c7-3bcb-4024-a1ee-4deb5b8ad369" name="Changes" comment="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina">
-      <change afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recepten.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/recepten_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="985013c7-3bcb-4024-a1ee-4deb5b8ad369" name="Changes" comment="refactor: detail_view basis afgemaakt">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bewerk.php" beforeDir="false" afterPath="$PROJECT_DIR$/bewerk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index_new_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index_new_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +16,19 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="PHP File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -26,23 +37,26 @@
     &quot;assignee&quot;: &quot;103428&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Sem-GLR/beroeps_periode_1.git&quot;,
-    &quot;accountId&quot;: &quot;dbbe79ad-88d7-4c40-8c82-f3c9711cf79c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sem-GLR/beroeps_periode_1",
+    "accountId": "944fd93a-d467-4a7e-b244-efeecb94f547"
   },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
     },
-    &quot;owner&quot;: &quot;Sem-GLR&quot;,
-    &quot;repository&quot;: &quot;beroeps_periode_1&quot;
+    "owner": "Sem-GLR",
+    "repository": "beroeps_periode_1"
   }
-}</component>
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.4.10/bin/php" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7,
   &quot;fromUser&quot;: false
@@ -52,19 +66,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;27-toevoeg-page-front-end&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/Maxim/Jaar 2/Beroeps2/Repo&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "new__main",
+    "last_opened_file_path": "/Volumes/Maxim/Jaar 2/Beroeps2/Repo",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/views" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,6 +107,7 @@
       <workItem from="1794303560036" duration="2684000" />
       <workItem from="1794306409833" duration="768000" />
       <workItem from="1794307200916" duration="309000" />
+      <workItem from="1794475853534" duration="6645000" />
     </task>
     <task id="LOCAL-00001" summary="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina">
       <option name="closed" value="true" />
@@ -96,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793876716424</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor: detail_view basis afgemaakt">
+      <option name="closed" value="true" />
+      <created>1794476031937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1794476031937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina" />
-    <option name="LAST_COMMIT_MESSAGE" value="overzichtpagina heeft kleine change, nieuw recept toevoeg knop brengt je naar de toevoegpagina" />
+    <MESSAGE value="refactor: detail_view basis afgemaakt" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: detail_view basis afgemaakt" />
   </component>
 </project>
