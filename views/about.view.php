@@ -37,8 +37,8 @@
     <section class="team-grid" aria-label="Meet the FoodFreaks team">
       <article class="team-card">
         <div class="card-content">
-          <div class="avatar avatar-teal" aria-hidden="true">SJ</div>
-          <h2>Sarah Janssen</h2>
+          <div class="avatar avatar-teal" aria-hidden="true">KS</div>
+          <h2>Kosta Sarbu</h2>
           <p class="role">Front-end developer</p>
           <p class="quote">“I turned our ideas into a clear and inviting interface that makes FoodFreaks easy to explore.”</p>
         </div>
@@ -47,8 +47,8 @@
 
       <article class="team-card">
         <div class="card-content">
-          <div class="avatar avatar-butter" aria-hidden="true">LM</div>
-          <h2>Lucas Meijer</h2>
+          <div class="avatar avatar-butter" aria-hidden="true">NS</div>
+          <h2>Nicolas Szczepanek</h2>
           <p class="role">Back-end developer</p>
           <p class="quote">“I built the structure behind the website so every part of the experience works smoothly.”</p>
         </div>
@@ -57,8 +57,8 @@
 
       <article class="team-card">
         <div class="card-content">
-          <div class="avatar avatar-coral" aria-hidden="true">NA</div>
-          <h2>Nora Ahmed</h2>
+          <div class="avatar avatar-coral" aria-hidden="true">MR</div>
+          <h2>Maxim van Roon</h2>
           <p class="role">UI/UX designer</p>
           <p class="quote">“I focused on making every page feel friendly, useful and easy to understand.”</p>
         </div>
@@ -67,9 +67,9 @@
 
       <article class="team-card">
         <div class="card-content">
-          <div class="avatar avatar-lavender" aria-hidden="true">DV</div>
-          <h2>Daan Visser</h2>
-          <p class="role">Full-stack developer</p>
+          <div class="avatar avatar-lavender" aria-hidden="true">SD</div>
+          <h2>Sem van Doorn</h2>
+          <p class="role">Back-end developer</p>
           <p class="quote">“I connected the design and functionality to bring the FoodFreaks idea to life.”</p>
         </div>
         <div class="card-number">04</div>
