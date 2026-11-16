@@ -13,7 +13,7 @@ function oud(array $oud, string $veld, string $standaard = ''): string {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Recept toevoegen | FoodFreaks</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/toevoeg.css">
+    <link rel="stylesheet" href="./css/toevoeg.css">
 </head>
 <body>
 
