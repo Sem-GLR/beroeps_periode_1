@@ -25,3 +25,33 @@ nav {
 .inherit {
     width: inherit;
 }
+
+main::before,
+main::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    opacity: .7;
+    pointer-events: none;
+}
+
+main::before {
+    top: 4rem;
+    left: 0rem;
+    border: 1.4rem solid rgba(7, 153, 150, .28);
+}
+
+main::after {
+    right: 10rem;
+    top: 20rem;
+    background: rgba(169, 200, 206, .2);
+}
+
+.team-card {
+    background-image: linear-gradient(rgba(0, 0, 0, .055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, .055) 1px, transparent 1px);
+    background-size: 2.2rem 2.2rem;
+}

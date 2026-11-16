@@ -10,16 +10,16 @@
 <body>
 
 <?php
-$ID = $_GET['ID'];
+/* $ID = $_GET['ID']; */
 
 ?>
 
 <a href="../index.php">terug</a>
 
-<?php foreach ($resultaten as $rij) { ?>
-<form method="post" action="./bewerk_verwerk.php?ID=<?=$ID ?>" enctype="multipart/form-data">
+<!-- <?php /* foreach ($resultaten as $rij) { */ ?> -->
+<form method="post" action="./bewerk_verwerk.php?ID=<?php /*=$ID*/ ?>" enctype="multipart/form-data">
     <label for="naam">naam</label>
-    <input type="text" name="naam" value="<?= $rij['recept_naam'] ?>" required>
+    <input type="text" name="naam" value="<?php /* = $rij['recept_naam'] */ ?>" required>
 
 <!-- IMPORTANT copy de recept aanmaak page form, met de value al in de input velden-->
 
@@ -27,9 +27,8 @@ $ID = $_GET['ID'];
 
     <input type="submit">
 <!--als de input velden leeg zijn-->
-    <?= $leegErr ?>
+    <?php /* =$leegErr ?>    <?php }  */ ?>
 
-    <?php } ?>
 </body>
 </html>
 

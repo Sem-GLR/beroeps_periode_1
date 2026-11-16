@@ -67,7 +67,7 @@ try {
 }
 
 } else {
-    include 'bewerk.php';
+    include '[BEW]bewerk.php';
 }
 
 } else {

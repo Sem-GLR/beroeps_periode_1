@@ -5,62 +5,42 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>FoodFreaks | Contact</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=K2D:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/contact.css">
+
+  <link rel="stylesheet" href="./css/bg.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="./css/new_style.css">
 </head>
 
-<body class="contact-body">
-  <nav class="contact-nav" id="nav">
-    <a class="logo" href="index.php">FoodFreaks</a>
-    <ul class="links">
-      <li><a href="#">Recipes</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="about.php">About us</a></li>
-      <li><a href="contact.php" aria-current="page">Contact us</a></li>
-    </ul>
-    <a class="cta" href="login.php">Sign up / Log in</a>
-    <button class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
-  </nav>
+<body class="isolate bg-[#006E69] overflow-hidden relative font-[k2d] text-white">
 
-  <main class="contact-main">
-    <header class="contact-header">
-      <p class="contact-eyebrow">We would love to hear from you</p>
-      <h1>Talk to our food lovers</h1>
-      <p>Have questions about recipes, collaborations, or how FoodFreaks works? We’re always happy to chat!</p>
+<!-- Navigatiebar -->
+<nav class="flex justify-center items-center text-shadow-[1px_1px_black] h-[90px] bg-gray opacity-300 fixed top-0 w-[100%] z-10 font-[k2d] text-xl">
+    <a class="absolute left-4 text-5xl font-[bebas] text-[#FF8400]" href="index.php">FoodFreaks</a>
+
+    <div class="mx-auto w-[600px] flex justify-around text-white">
+        <a href="index.php">Main page</a>
+        <a href="overzicht.php">Recipes</a>
+        <a href="about.php">About us</a>
+        <a href="contact.php">Contact us</a>
+    </div>
+    <div class="absolute right-4 text-shadow-none px-4 py-2 bg-[#FFD27A] rounded-4xl" href="login.php">Sign up / Log in</div>
+</nav>
+
+
+<main class="contact-main text-2xl mt-42">
+    <header class="text-center flex justify-center">
+
+        <div class="z-2 absolute">
+      <p class="font-[bebas] text-6xl text-[#FF8400]">Wij horen graag van jou!</p>
+      <p>Zijn er dingen die naar de sh*t zijn gegaan op de website of heb je een error gevonden? Neem contact met ons! </p>
+            <div class="h-fit w-[70%] mx-auto"><img src="../media/images/chef_calling.jpg" class="w-[fit] h-auto mx-auto mt-10 border-3 border-[#A2C9CD] w-auto rounded-lg"></div>
+        <div class="w-[135px] py-2.5 mt-10 hover mx-auto h-fit scale-[140%] text-center rounded-4xl text-sm bg-[#FF8400]"><a href="contact-form.php"><u>Contact opnemen</u></a></div>
+        </div>
+
     </header>
-
-    <section class="contact-grid" id="contact-options" aria-label="Ways to contact FoodFreaks">
-      <article class="contact-card">
-        <div class="contact-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
-            <path d="M5 5.5h14A1.5 1.5 0 0 1 20.5 7v9A1.5 1.5 0 0 1 19 17.5H9l-4.5 3V7A1.5 1.5 0 0 1 6 5.5Z" />
-            <path d="M8 10h8M8 13h5" />
-          </svg>
-        </div>
-        <h2>Chat with us</h2>
-        <p>Ask us anything about your next meal.</p>
-        <a href="contact-form.php?topic=chat">Start a conversation</a>
-      </article>
-
-      <article class="contact-card">
-        <div class="contact-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
-            <path d="M4.5 11.5a7.5 7.5 0 0 1 15 0v5A2.5 2.5 0 0 1 17 19h-1v-6h1a2.5 2.5 0 0 1 2.5 2.5M4.5 16.5A2.5 2.5 0 0 1 7 14h1v5H7a2.5 2.5 0 0 1-2.5-2.5Z" />
-            <path d="M16 19c-.6 1-1.6 1.5-3 1.5h-1" />
-          </svg>
-        </div>
-        <h2>Need some help?</h2>
-        <p>We’re here to help with your FoodFreaks experience.</p>
-        <a href="contact-form.php?topic=help">Get support</a>
-      </article>
-
-    </section>
   </main>
 
-  <script src="js/script.js" defer></script>
 </body>
 
 </html>

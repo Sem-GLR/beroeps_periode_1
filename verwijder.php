@@ -1,6 +1,9 @@
 <?php
 
-require 'config.php';
+require 'configs/conn.php';
+
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
 //we moeten code maken die kijkt of een account het recept heeft gemaakt dan kunnen anderen niet alles verwijderen
 
@@ -8,7 +11,7 @@ require 'config.php';
 $ID = $_GET['ID'];
 
 try {
-    $query = "DELETE FROM table_naam (recepten) WHERE ID = :ID";
+    $query = "DELETE FROM recipe WHERE ID = :ID";
     $stmt = $conn->prepare($query);
     $stmt->bindParam(':ID', $ID);
     $stmt->execute();

@@ -1,0 +1,23 @@
+body::before,
+body::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  opacity: .7;
+  pointer-events: none;
+}
+
+body::before {
+  top: 4rem;
+  left: 0rem;
+  border: 1.4rem solid rgba(7, 153, 150, .28);
+}
+
+body::after {
+  right: 10rem;
+  top: 20rem;
+  background: rgba(169, 200, 206, .2);
+}

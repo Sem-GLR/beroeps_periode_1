@@ -1,6 +1,7 @@
 <?php
-require 'configs/conn.php';
+/* require 'configs/conn.php'; */
 
+// LATER UITZETTEN!!! - Nicolas
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
