@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/new_style.css">
+    <link rel="stylesheet" href="../css/new_style.css">
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
@@ -35,29 +35,29 @@
     <!-- Bovenkant pagina -->
     <hr class="w-[80%] text-white mx-auto mt-6">
 
-    <div class="w-[80%] mx-auto bg-green-300 h-[inherit] flex justify-between">
+    <div class="w-[80%] mx-auto h-[inherit] flex justify-between">
 
         <!-- Auteurnaam -->
         <div class="w-[20%] items-center text-left flex justify-start gap-3">
-            <img src="../images/publish.png " class="max-w-[60px] bg-green-600">
+            <img src="../images/publish.png " class="max-w-[60px]">
             <span class="text-4xl font-[k2d]"><b>Gepost door: bober</b> </u></span>
         </div>
 
         <!-- Titel recept -->
-        <div class="bg-red-300 w-[600px] text-center">
+        <div class="w-[600px] text-center mt-5">
             <span class="text-8xl font-[bebas] text-black">BUDGET-GOULASH</span>
         </div>
 
         <!-- Postdatum -->
         <div class="w-[20%] items-center text-right flex justify-end gap-3">
             <span class="text-4xl font-[k2d]"><b>Postdatum: bober</b> </u></span>
-            <img src="../images/date.png" class="max-w-[60px] bg-green-600">
+            <img src="../images/date.png" class="max-w-[60px">
         </div>
 
     </div>
 
     <!-- Middeldetails -->
-    <div class=" w-[80%] bg-red-300 h-[800px] mx-auto mt-30">
+    <div class=" w-[80%] h-[800px] mx-auto mt-30">
         <!-- Receptinfo + foto -->
         <div class="flex justify-around">
             <!-- Foto + reviews gemiddelde -->
@@ -66,14 +66,28 @@
                 <img src="../images/placeholder2.png" class="max-h-[500px] max-w-[100%] rounded-2xl border-2 border-black">
 
                 <!-- Gemiddelde rating -->
-                <div class="w-[80%] h-59 mx-auto mt-4 bg-[#00918E]">
-                    <span class="bg-green-600 font-[bebas] text-4xl">Reviewers zeggen dit:</span>
+                <div class="w-[80%] mx-auto mt-4 bg-[#00918E] h-[230px] rounded-lg flex flex-col justify-around">
+                    <div class="text-center text-6xl">
+                        <span class="font-[bebas]">Reviewers zeggen dit:</span>
+                    </div>
+
+                    <div class="flex justify-around">
+                        <img src="/images/yellow_star.png" class="h-20">
+                        <img src="/images/yellow_star.png" class="h-20">
+                        <img src="/images/yellow_star.png" class="h-20">
+                        <img src="/images/black_star.png" class="h-20">
+                        <img src="/images/black_star.png" class="h-20">
+                    </div>
+
+                    <div class="text-center text-4xl">
+                        <span class="font-[k2d]">"-" rating</span>
+                    </div>
                 </div>
             </div>
 
 
             <!-- Gegevens kooktijd, porties, allergieen, tags -->
-            <div class="w-[40%] bg-yellow-300 text-5xl flex flex-col gap-2">
+            <div class="w-[40%] text-5xl flex flex-col gap-2">
 
                 <div class="flex items-center gap-3"><img src="../images/duration.png" class="h-[35px]"><b>Kooktijd:</b> ~3 min</div>
                 <div class="flex items-center gap-3"><img src="../images/porties.png" class="h-[35px]"><b>Porties:</b> 67</div>
@@ -113,8 +127,63 @@
 
             </div>
         </div>
+    </div>
 
 
+
+    <div class="w-[600px] text-center mx-auto mt-60">
+        <span class="text-8xl font-[bebas] text-white">Wat heb je nodig?</span>
+    </div>
+
+    <div class="w-[90%] mt-60 mx-auto flex justify-between">
+        <div class="w-[40%] text-center">
+            <span class="text-7xl mx-auto font-[bebas] text-white"><u>Ingrediënten:</u></span>
+
+            <div class="mt-4 bg-[#00918E] gap-3 py-7 text-left px-7 text-4xl rounded-lg flex flex-col justify-around">
+                <div class="flex flex-row items-center gap-3"><div class="rounded-4xl mt-2 bg-white h-3 w-3"></div>a</div>
+                <div class="flex flex-row items-center gap-3"><div class="rounded-4xl mt-2 bg-white h-3 w-3"></div>b</div>
+                <div class="flex flex-row items-center gap-3"><div class="rounded-4xl mt-2 bg-white h-3 w-3"></div>c</div>
+            </div>
+        </div>
+
+
+
+        <div class="w-[40%] text-center">
+            <span class="text-7xl mx-auto font-[bebas] text-white"><u>Keukenspullen:</u></span>
+
+            <div class="mt-4 bg-[#00918E] gap-3 py-7 text-left px-7 text-4xl rounded-lg flex flex-col justify-around">
+                <div class="flex flex-row items-center gap-3"><div class="rounded-4xl mt-2 bg-white h-3 w-3"></div>a</div>
+                <div class="flex flex-row items-center gap-3"><div class="rounded-4xl mt-2 bg-white h-3 w-3"></div>b</div>
+                <div class="flex flex-row items-center gap-3"><div class="rounded-4xl mt-2 bg-white h-3 w-3"></div>c</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-[90%] mt-60 mx-auto flex justify-between">
+        <div class="w-[70%] text-center mx-auto">
+            <span class="text-7xl mx-auto font-[bebas] text-white">Hoe maak je het?</span>
+
+            <div class="mt-4 bg-[#00918E] gap-3 py-7 text-left px-7 text-4xl rounded-lg flex flex-col justify-around">
+                <div class="flex flex-row items-center gap-3"><div>1.</div>a</div>
+                <div class="flex flex-row items-center gap-3"><div>2.</div>a</div>
+                <div class="flex flex-row items-center gap-3"><div>3.</div>a</div>A2C9CD
+            </div>
+        </div>
+    </div>
+
+    <div class="w-[100%] mt-60 py-3 bg-[#A2C9CD] mx-auto flex justify-between">
+        <div class="w-[90%] text-center mx-auto">
+            <div class="mt-5"><span class="text-8xl mx-auto font-[bebas] text-black">De reviews</span></div>
+
+            <hr class="text-[#00918E]">
+
+            <div class="mt-4 bg-[#00918E] gap-3 h-[300px] py-7 text-left px-7 text-4xl rounded-lg flex flex-col justify-around">
+
+            </div>
+
+            <div class="mt-5"><span class="text-8xl mx-auto font-[bebas] text-black">O.</span></div>
+            <div class="mt-2"><span class="text-3xl mx-auto font-[k2d] text-black">Zo te zien wilt de gebruiker niet dat jij een review laat. <br> Misschien kun je dat later?</span></div>
+        </div>
     </div>
 
 
