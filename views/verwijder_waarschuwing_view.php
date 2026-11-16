@@ -25,7 +25,7 @@ $naam = htmlspecialchars($_GET['naam'] ?? '', ENT_QUOTES, 'UTF-8');
 
         <!-- links naar de volgende pagina's -->
         <div class="knoppen">
-            <a class="knop knop-nee" href="../index.php">Nee</a>
+            <a class="knop knop-nee" href="./index.php">Nee</a>
             <a class="knop knop-ja" href="../verwijder.php?ID=<?= $ID ?>">Ja, verwijderen</a>
         </div>
     </div>

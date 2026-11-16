@@ -16,7 +16,7 @@
 <body>
 <header class="site-header">
     <nav class="nav">
-        <a class="logo" href="#">FoodFreaks</a>
+        <a class="logo" href="index.php">FoodFreaks</a>
         <div class="nav-actions">
             <a class="nav-link" href="#">Log in</a>
             <a class="btn btn-orange" href="#">Sign up</a>
@@ -25,19 +25,19 @@
     <h1>Het overzichtspagina</h1>
 </header>
 
-<main class="page">
-    <div class="toolbar">
-        <div class="filters">
-            <span class="filters-label" id="filters-label">Sorteren op:</span>
-            <div class="filter-buttons" id="filters" role="group" aria-labelledby="filters-label"></div>
-        </div>
-        <div class="search-block">
-            <input type="search" id="search" class="search" placeholder="Sorteren op naam" aria-label="Zoek recept op naam">
-            <a class="btn btn-orange btn-small" href="toevoeg.php">Nieuw recept plaatsen</a>
-        </div>
-    </div>
-
-    <div id="sections"></div>
+<!--<main class="page">-->
+<!--    <div class="toolbar">-->
+<!--        <div class="filters">-->
+<!--            <span class="filters-label" id="filters-label">Sorteren op:</span>-->
+<!--            <div class="filter-buttons" id="filters" role="group" aria-labelledby="filters-label"></div>-->
+<!--        </div>-->
+<!--        <div class="search-block">-->
+<!--            <input type="search" id="search" class="search" placeholder="Sorteren op naam" aria-label="Zoek recept op naam">-->
+<!--            <a class="btn btn-orange btn-small" href="toevoeg.php">Nieuw recept plaatsen</a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!---->
+<!--    <div id="sections"></div>-->
 
 <!--    BELANGRIJK: stop de html code voor de recepten in de foreach-->
 
@@ -45,23 +45,27 @@
     <?php
     if ($aantalRijen > 0){ ?>
         <!--   voor elk recept zet het de html/php code hierbinnen-->
+        <div style="position: relative; border-radius: 10px; left: 5%; width: 90%; display: grid; grid-template-columns: auto auto auto auto auto ; background-color: #c15912; padding: 10px; margin-top: 50px;">
         <?php foreach ($resultaten as $rij) { ?>
-            <div style="border: black solid 5px; width: fit-content">
-                <h3> recept_naam:  <?= $rij['recept_naam']?></h3>
-                <h3>rating: <?= $rij['rating'] ?></h3>
-                <h3>kook_tijd: <?= $rij['kook_tijd'] ?></h3>
-                <p style="position: relative" >datum: <?= $rij['post_datum'] ?></p>
-                <a style="position: relative" href="views/verwijder_waarschuwing_view.php?ID=<?=$rij["ID"]?>" >verwijder</a>
-                <a style="position: relative" href="bewerk.php?ID=<?=$rij["ID"]?>" >edit</a>
-
+            <div style=" border-radius: 5px; ;background-color: lightgray; width: 60%; padding: 10px; margin-bottom: 10px; margin-top: 10px  ">
+                <div style="position: relative; margin: auto; width:250px; height: 150px; background-color: #1a1200"><a href="./detail.php?=ID=<?=$rij["ID"] ?>"></a></div>
+                <h3 style="text-align: center; background-color: #b5b5b5;">  <?= $rij['recept_naam']?></h3>
+                <h3 style="text-align: center; background-color: #bababa; ">rating: <?= $rij['rating'] ?></h3>
+                <h3 style="text-align: center">kook_tijd: <?= $rij['kook_tijd'] ?></h3>
+                <p style="text-align: center" style="position: relative" >datum: <?= $rij['post_datum'] ?></p>
+                <div style="text-align: center; position: relative;">
+                <a style="position: relative; background-color: #e69401; padding: 2px; border-radius: 10px; " href="views/verwijder_waarschuwing_view.php?ID=<?=$rij["ID"]?>" >verwijder</a>
+                <a style="position: relative; background-color: #e69401; padding: 2px; border-radius: 10px;" href="bewerk.php?ID=<?=$rij["ID"]?>" >edit</a>
+                </div>
 <!--        kijkt of er tags zijn-->
-                <div style="display: grid; grid-auto-columns: auto auto auto">
+                <div style=" background-color: #b5b5b5; padding: 5px; ;margin-top: 10px; display: grid; grid-gap: 10px; grid-template-columns: auto auto auto auto auto">
                 <?php include 'tag_check.php'?>
                 </div>
             </div>
 
-        <?php }
-    } else { ?>
+        <?php } ?>
+        </div>
+     <?php } else { ?>
         <h2>er zit geen data in het database</h2>
    <?php } ?>
 
