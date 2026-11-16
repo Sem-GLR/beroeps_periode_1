@@ -7,7 +7,7 @@ require 'configs/conn.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //get alle values in de forms
-    $titel = $_POST['titel'];
+    $recept_naam = $_POST['titel'];
     $kook_tijd = $_POST['kooktijd'];
     $porties = $_POST['porties'];
 
@@ -16,12 +16,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $letterErr = $leegErr = "";
 
     //kijk of de input velden leeg zijn
-    if (empty($titel)||empty($kook_tijd)||empty($ingredienten)||empty($porties)) {
+    if (empty($recept_naam)||empty($kook_tijd)||empty($porties)) {
         $leegErr = "*een of meerdere velden zijn leeg*";
     }
 
 //    kijk of een value alleen letters heeft
-    if (!preg_match("/^[a-zA-Z]*$/",$titel)){
+    if (!preg_match("/^[a-zA-Z]*$/",$recept_naam)){
         $letterErr = "*alleen letters*";
     }
 
@@ -30,24 +30,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         try {
             //  zet de values in  de tabel
-            $query = "INSERT INTO recipe (titel, porties, kook_tijd)";
-            $query .= "VALUES (:titel, :porties, :kook_tijd)";
+            $query = "INSERT INTO recipe (recept_naam, porties, kook_tijd)";
+            $query .= "VALUES (:recept_naam, :porties, :kook_tijd)";
 
             $stmt = $conn->prepare($query);
 
             $stmt->execute([
-                'titel' => $titel,
+                'recept_naam' => $recept_naam,
                 'porties' => $porties,
                 'kook_tijd' => $kook_tijd
-            ]);
-
-            $stmt = $conn->prepare($query);
-
-            //zet values weer in
-            $stmt->execute([
-                'receptnaam' => $titel,
-                'kook_tijd' => $kook_tijd,
-                'porties' => $porties
             ]);
 
             if ($stmt->rowCount()) {
@@ -63,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
     } else {
-        include 'bewerk.php';
+        include 'toevoeg.php';
     }
 
 } else {

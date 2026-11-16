@@ -45,20 +45,20 @@
     <?php
     if ($aantalRijen > 0){ ?>
         <!--   voor elk recept zet het de html/php code hierbinnen-->
-        <div style="position: relative; border-radius: 10px; left: 5%; width: 90%; display: grid; grid-template-columns: auto auto auto auto auto ; background-color: #c15912; padding: 10px; margin-top: 50px;">
+        <div style="position: relative; border-radius: 10px; left: 5%; width: 90%; display: grid; grid-template-columns: auto auto auto ; background-color: #c15912; padding: 10px; margin-top: 50px;">
         <?php foreach ($resultaten as $rij) { ?>
-            <div style=" border-radius: 5px; ;background-color: lightgray; width: 60%; padding: 10px; margin-bottom: 10px; margin-top: 10px  ">
-                <div style="position: relative; margin: auto; width:250px; height: 150px; background-color: #1a1200"><a href="./detail.php?=ID=<?=$rij["ID"] ?>"></a></div>
+            <div style="justify-self: center; border-radius: 5px; ;background-color: lightgray; width: 350px; padding: 10px; margin-bottom: 10px; margin-top: 10px  ">
+                <a href="detail.php?ID=<?=$rij["ID"] ?>"><div  style="position: relative; margin: auto; width:250px; height: 150px; background-color: #1a1200" ></div></a>
                 <h3 style="text-align: center; background-color: #b5b5b5;">  <?= $rij['recept_naam']?></h3>
                 <h3 style="text-align: center; background-color: #bababa; ">rating: <?= $rij['rating'] ?></h3>
-                <h3 style="text-align: center">kook_tijd: <?= $rij['kook_tijd'] ?></h3>
-                <p style="text-align: center" style="position: relative" >datum: <?= $rij['post_datum'] ?></p>
+                <h3 style="text-align: center">kook_tijd: <?= $rij['kook_tijd'] ?> min</h3>
+                <p style="text-align: center" style="position: relative" >post datum: <?= $rij['post_datum'] ?></p>
                 <div style="text-align: center; position: relative;">
                 <a style="position: relative; background-color: #e69401; padding: 2px; border-radius: 10px; " href="views/verwijder_waarschuwing_view.php?ID=<?=$rij["ID"]?>" >verwijder</a>
                 <a style="position: relative; background-color: #e69401; padding: 2px; border-radius: 10px;" href="bewerk.php?ID=<?=$rij["ID"]?>" >edit</a>
                 </div>
 <!--        kijkt of er tags zijn-->
-                <div style=" background-color: #b5b5b5; padding: 5px; ;margin-top: 10px; display: grid; grid-gap: 10px; grid-template-columns: auto auto auto auto auto">
+                <div style=" background-color: #b5b5b5; height: 40px; padding: 5px; ;margin-top: 10px; display: grid; grid-gap: 10px; grid-template-columns: auto auto auto">
                 <?php include 'tag_check.php'?>
                 </div>
             </div>
