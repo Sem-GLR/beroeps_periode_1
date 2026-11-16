@@ -13,14 +13,6 @@ if (!isset($select) || !isset($table) ) {
     echo "data err";
 }
 
-else if (is_null($where) || is_empty($where) ) {
-    $stmt_read->execute([
-        "select" => $select,
-        "table" => $table,
-        "where" => ""
-    ]);
-}
-
 else {
     $stmt_read->execute([
         "select" => $select,

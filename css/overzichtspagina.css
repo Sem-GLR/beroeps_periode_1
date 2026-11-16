@@ -21,7 +21,6 @@ body {
   background: var(--teal);
 }
 
-a { color: inherit; text-decoration: none; }
 :focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
 
 /* Header */

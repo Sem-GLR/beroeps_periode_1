@@ -39,7 +39,7 @@
 
         <!-- Auteurnaam -->
         <div class="w-[20%] items-center text-left flex justify-start gap-3">
-            <img src="../images/publish.png " class="max-w-[60px]">
+            <img src="../media/images/publish.png " class="max-w-[60px]">
             <span class="text-4xl font-[k2d]"><b>Gepost door: bober</b> </u></span>
         </div>
 
@@ -51,7 +51,7 @@
         <!-- Postdatum -->
         <div class="w-[20%] items-center text-right flex justify-end gap-3">
             <span class="text-4xl font-[k2d]"><b>Postdatum: bober</b> </u></span>
-            <img src="../images/date.png" class="max-w-[60px">
+            <img src="../media/images/date.png" class="max-w-[60px">
         </div>
 
     </div>
@@ -63,7 +63,7 @@
             <!-- Foto + reviews gemiddelde -->
             <div>
                 <!-- Afbeelding -->
-                <img src="../images/placeholder2.png" class="max-h-[500px] max-w-[100%] rounded-2xl border-2 border-black">
+                <img src="../media/images/placeholder2.png" class="max-h-[500px] max-w-[100%] rounded-2xl border-2 border-black">
 
                 <!-- Gemiddelde rating -->
                 <div class="w-[80%] mx-auto mt-4 bg-[#00918E] h-[230px] rounded-lg flex flex-col justify-around">
@@ -72,11 +72,11 @@
                     </div>
 
                     <div class="flex justify-around">
-                        <img src="/images/yellow_star.png" class="h-20">
-                        <img src="/images/yellow_star.png" class="h-20">
-                        <img src="/images/yellow_star.png" class="h-20">
-                        <img src="/images/black_star.png" class="h-20">
-                        <img src="/images/black_star.png" class="h-20">
+                        <img src="/media/images/yellow_star.png" class="h-20">
+                        <img src="/media/images/yellow_star.png" class="h-20">
+                        <img src="/media/images/yellow_star.png" class="h-20">
+                        <img src="/media/images/black_star.png" class="h-20">
+                        <img src="/media/images/black_star.png" class="h-20">
                     </div>
 
                     <div class="text-center text-4xl">
@@ -89,11 +89,11 @@
             <!-- Gegevens kooktijd, porties, allergieen, tags -->
             <div class="w-[40%] text-5xl flex flex-col gap-2">
 
-                <div class="flex items-center gap-3"><img src="../images/duration.png" class="h-[35px]"><b>Kooktijd:</b> ~3 min</div>
-                <div class="flex items-center gap-3"><img src="../images/porties.png" class="h-[35px]"><b>Porties:</b> 67</div>
+                <div class="flex items-center gap-3"><img src="../media/images/duration.png" class="h-[35px]"><b>Kooktijd:</b> ~3 min</div>
+                <div class="flex items-center gap-3"><img src="../media/images/porties.png" class="h-[35px]"><b>Porties:</b> 67</div>
 
                 <!-- Allergieën lijst -->
-                <div class="flex items-center gap-3 text-[#C20000]"><img src="../images/allergieen.png" class="h-[35px]"><b><u>Allergieën:</u></b></div>
+                <div class="flex items-center gap-3 text-[#C20000]"><img src="../media/images/allergieen.png" class="h-[35px]"><b><u>Allergieën:</u></b></div>
 
                 <div class="flex gap-3 w-[100%] h-60 bg-[#00918E] mt-5 rounded-lg overflow-y-auto p-3 flex-wrap">
                     <!-- Allgerieen item -->
@@ -101,7 +101,7 @@
                         <div class="w-fit flex">
                             <span>1</span>
                         </div>
-                        <img src="../images/geelster_rounded.png" class="w-5 h-5">
+                        <img src="../media/images/geelster_rounded.png" class="w-5 h-5">
                     </div>
 
                     <div class="w-fit min-w-[60px] h-[35px] px-3 text-center rounded-lg bg-[#FFD700] text-xl">
@@ -113,7 +113,7 @@
                 </div>
 
                 <!-- Tags lijst -->
-                <div class="flex items-center gap-3"><img src="../images/list.png" class="h-[35px]"><b>Tags:</b></div>
+                <div class="flex items-center gap-3"><img src="../media/images/list.png" class="h-[35px]"><b>Tags:</b></div>
 
                 <div class="flex gap-3 w-[100%] h-60 bg-[#00918E] mt-5 rounded-lg overflow-y-auto p-3 flex-wrap">
                     <!-- Tag item -->
