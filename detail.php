@@ -24,4 +24,4 @@ $resultaten = $stmt->fetchAll();
 
 $aantalRijen = count($resultaten);
 
-//include "views/details_view.php";
+include "views/details_view.php";
